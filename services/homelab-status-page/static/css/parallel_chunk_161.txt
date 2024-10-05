@@ -1,0 +1,57 @@
+```
+.eggnog.page.discord .count .icon svg {
+    display: block
+}
+
+.eggnog.page.discord .count .number {
+    font-size: .8rem
+}
+
+.eggnog.page.discord .description {
+    margin-bottom: 1.5em
+}
+
+@media (max-width: 800px) {
+    .page.discord .description br {
+        display:none
+    }
+}
+
+.eggnog.page.discord .bullet-points {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5em
+}
+
+.eggnog.page.discord .bullet-points ul {
+    padding: 20px 30px;
+    background: #202020;
+    border-radius: 10px;
+    text-align: left
+}
+
+.eggnog.page.discord .bullet-points .icon {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-right: .8em
+}
+
+.eggnog.page.discord .bullet-points .icon svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.eggnog.page.discord .bullet-points .icon svg * {
+    fill: #32ffce
+}
+
+.eggnog.page.discord .bullet-points .icon.check {
+    width: 10px;
+    height: 9px
+}
+```

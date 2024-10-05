@@ -1,0 +1,43 @@
+    .eggnog.player.has-played-once .eggnog.poster {
+        opacity: 0
+    }
+
+    .eggnog.player.has-thumbnail .eggnog.controls .eggnog.cursor .eggnog.cursor-inner .eggnog.cursor-thumbnail {
+        display: block
+    }
+
+    .eggnog.player.has-thumbnail .eggnog.controls .eggnog.cursor .eggnog.cursor-inner .eggnog.cursor-content {
+        min-width: 192px
+    }
+
+    .eggnog.player.is-playing .eggnog.controls .eggnog.play-toggle .eggnog.pause {
+        transform: scale(1);
+        transition: .12s .06s transform
+    }
+
+    .eggnog.player.is-playing .eggnog.controls .eggnog.play-toggle .eggnog.play {
+        transform: scale(.001);
+        transition: .12s transform
+    }
+
+    .eggnog.player.is-playing .eggnog.overlay,.eggnog.player.is-playing .eggnog.logo {
+        opacity: 0
+    }
+
+    .eggnog.player.is-paused .eggnog.controls .eggnog.play-toggle .eggnog.pause {
+        transform: scale(.001);
+        transition: .12s transform
+    }
+
+    .eggnog.player.is-paused .eggnog.controls .eggnog.play-toggle .eggnog.play {
+        transform: scale(1);
+        transition: .12s .06s transform
+    }
+
+    .eggnog.player.is-meta-loaded .eggnog.controls .eggnog.rate,.eggnog.player.is-meta-loaded .eggnog.controls .eggnog.play-toggle,.eggnog.player.is-meta-loaded .eggnog.controls .eggnog.time {
+        opacity: 1
+    }
+
+    .eggnog.player.is-not-using-hls .eggnog.controls .eggnog.quality {
+        display: none
+    }

@@ -1,0 +1,51 @@
+    .eggnog.header .navigation {
+        display: flex
+    }
+
+    .eggnog.header .navigation .logo-container {
+        display: flex;
+        align-items: center
+    }
+
+    .eggnog.header .navigation .logo-container .main-logo {
+        pointer-events: auto
+    }
+
+    .eggnog.header .navigation .logo-container .main-logo .letter {
+        fill: #fff
+    }
+
+    .eggnog.header .links {
+        display: flex
+    }
+
+    @media (max-width: 1080px) {
+        .header .links {
+            display:none
+        }
+    }
+
+    .eggnog.header .links:hover .link .label {
+        opacity: .5!important
+    }
+
+    .eggnog.header .links:hover .link:hover .label {
+        text-decoration: underline;
+        opacity: 1!important
+    }
+
+    .eggnog.header .links .link {
+        position: relative;
+        display: block;
+        display: flex;
+        align-items: center;
+        padding-left: 22px;
+        padding-right: 22px
+    }
+
+    @media (max-width: 1080px) {
+        .header .links .link {
+            padding-left:15px;
+            padding-right: 15px
+        }
+    }

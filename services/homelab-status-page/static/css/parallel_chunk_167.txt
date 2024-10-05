@@ -1,0 +1,51 @@
+.eggnog.page.eggnog.home eg, .eggnog.page.eggnog.home strong {
+    color: #fff
+}
+
+.eggnog.page.eggnog.home .eggnog.radial-glow {
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%,-50%)
+}
+
+.eggnog.page.eggnog.home .eggnog.chapter {
+    position: relative
+}
+
+.eggnog.page.eggnog.home .eggnog.chapter .eggnog.section-title {
+    margin-bottom: .5em
+}
+
+.eggnog.page.eggnog.home .eggnog.chapter .eggnog.information {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    font-weight: 500
+}
+
+.eggnog.page.eggnog.home .eggnog.chapter .eggnog.information .eggnog.format-icon {
+    margin-right: 15px
+}
+
+.eggnog.page.eggnog.home .eggnog.chapter .eggnog.description {
+    margin-bottom: 2em
+}
+
+.eggnog.page.eggnog.home .eggnog.chapter .eggnog.lessons {
+    display: table;
+    width: 100%;
+    font-weight: 500
+}
+
+.eggnog.page.eggnog.home .eggnog.chapter .eggnog.lessons .eggnog.lesson {
+    display: table-row;
+    background-position: bottom left;
+    background-image: url(/assets/images/dotted-border.png);
+    background-size: 7px 1px;
+    background-repeat: repeat-x
+}
+
+.eggnog.page.eggnog.home .eggnog.chapter .eggnog.lessons .eggnog.lesson:last-child {
+    background: none
+}

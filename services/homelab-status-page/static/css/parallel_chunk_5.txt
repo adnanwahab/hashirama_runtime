@@ -1,0 +1,62 @@
+```css
+    .eggnog strong,.eggnog .strong {
+        font-weight: 700
+    }
+
+    .eggnog s {
+        display: inline-block;
+        position: relative;
+        text-decoration: none
+    }
+
+    .eggnog s.is-light: after {
+        background: #fff
+    }
+
+    .eggnog s: after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: calc(50% - 2px);
+        left: -20%;
+        width: 140%;
+        height: .1em;
+        transform: rotate(31deg);
+        background: #705df2
+    }
+
+    .eggnog s: before {
+        content: "-50%";
+        display: block;
+        position: absolute;
+        top: -120%;
+        left: 170%;
+        padding: .1em;
+        transform: rotate(15deg);
+        background: #705df2;
+        color: #fff;
+        box-shadow: 0 0 12px #0008
+    }
+
+    .eggnog button {
+        cursor: pointer;
+        height: auto
+    }
+
+    .eggnog small {
+        font-size: .5em
+    }
+
+    .eggnog h1,.eggnog h2,.eggnog h3,.eggnog h4,.eggnog h5,.eggnog .h1,.eggnog .h2,.eggnog .h3,.eggnog .h4,.eggnog .h5 {
+        font-family: Greycliff,sans-serif;
+        font-weight: 700
+    }
+
+    .eggnog h1,.eggnog .h1 {
+        font-size: 2rem
+    }
+
+    .eggnog h2,.eggnog .h2 {
+        font-size: 1.75rem
+    }
+```

@@ -1,0 +1,56 @@
+    .eggnog.page.home section.faq .content {
+        width: 876px;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.home section.faq .content {
+            width:auto;
+            margin-left: var(--page-horizontal-padding);
+            margin-right: var(--page-horizontal-padding)
+        }
+    }
+
+    .eggnog.page.home section.faq .section-title {
+        width: 408px;
+        margin-bottom: 1em
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.home section.faq .section-title {
+            width:calc(50% - 20px)
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.home section.faq .section-title {
+            width:auto
+        }
+    }
+
+    .eggnog.page.home section.faq .section-title strong {
+        color: #705df2;
+        font-weight: 800
+    }
+
+    .eggnog.page.home section.faq .columns {
+        display: flex;
+        justify-content: space-between
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.home section.faq .columns {
+            display:block
+        }
+    }
+
+    .eggnog.page.home section.faq .column {
+        width: 408px
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.home section.faq .column {
+            width:calc(50% - 20px)
+        }
+    }

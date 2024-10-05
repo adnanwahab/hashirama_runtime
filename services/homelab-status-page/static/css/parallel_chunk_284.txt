@@ -1,0 +1,77 @@
+    @media (max-width: 1080px) {
+        .eggnog.page.twitterContests .section-title {
+            margin-left:auto;
+            margin-right: auto;
+            font-size: 36px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.twitterContests .section-title {
+            font-size:32px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.twitterContests .section-title {
+            margin-left:20px;
+            margin-right: 20px;
+            font-size: 28px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.page.twitterContests .section-title {
+            font-size:24px
+        }
+    }
+
+    .eggnog.page.twitterContests .section-title strong {
+        color: #705df2;
+        font-weight: 800
+    }
+
+    .eggnog.page.twitterContests .winners {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3rem
+    }
+
+    .eggnog.page.twitterContests .winner {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+        border: 2px solid rgba(0,0,0,.05);
+        border-radius: 10px;
+        padding: 10px 15px
+    }
+
+    .eggnog.page.twitterContests .winner .user-picture-container {
+        display: inline-block;
+        vertical-align: top;
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: #dfdae4
+    }
+
+    .eggnog.page.twitterContests .winner .user-picture {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden
+    }
+
+    .eggnog.page.twitterContests .winner .user-information {
+        display: inline-flex;
+        vertical-align: top;
+        width: calc(100% - 68px);
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 10px;
+        line-height: 22px;
+        font-size: 16px
+    }

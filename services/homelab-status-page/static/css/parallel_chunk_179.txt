@@ -1,0 +1,90 @@
+    .eggnog.page.home section.hero .navigation .label .value .digit.is-before {
+        transform: translateY(10px);
+        opacity: 0;
+        transition-delay: 0,0
+    }
+
+    .eggnog.page.home section.hero .navigation .label .value .digit.is-current {
+        transform: translateY(0);
+        opacity: 1;
+        transition-delay: .2s,.2s
+    }
+
+    .eggnog.page.home section.hero .navigation .label .value .digit.is-after {
+        transform: translateY(-10px);
+        opacity: 0;
+        transition-delay: 0,0
+    }
+
+    .eggnog.page.home section.hero .click {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 45px;
+        left: calc(50% - 77px);
+        width: 154px;
+        height: 52px;
+        background: #fff;
+        border-radius: 29px;
+        box-shadow: 0 30px 70px #3c00bd22;
+        will-change: transform;
+        cursor: default;
+        z-index: 3;
+        pointer-events: none;
+        user-select: none
+    }
+
+    @media (max-width: 1600px) {
+        .eggnog.page.home section.hero .click {
+            left:calc(50% - 77px);
+            bottom: 40px;
+            width: 154px;
+            height: 52px
+        }
+    }
+
+    @media (max-width: 1300px) {
+        .eggnog.page.home section.hero .click {
+            left:calc(50% - 77px);
+            bottom: 35px;
+            width: 154px;
+            height: 52px
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.home section.hero .click {
+            left:calc(50% - 77px);
+            bottom: 30px;
+            width: 154px;
+            height: 52px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.home section.hero .click {
+            left:calc(50% - 72px);
+            bottom: 25px;
+            width: 144px;
+            height: 48px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.home section.hero .click {
+            left:calc(50% - 67px);
+            bottom: 20px;
+            width: 134px;
+            height: 44px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.page.home section.hero .click {
+            left:calc(50% - 62px);
+            bottom: 20px;
+            width: 124px;
+            height: 40px
+        }
+    }

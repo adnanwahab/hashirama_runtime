@@ -1,0 +1,49 @@
+```
+.eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.files .eggnog.info-button {
+    margin-left: 1em
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.files .eggnog.button {
+        margin-bottom:.25rem
+    }
+}
+
+.eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.files .eggnog.button .eggnog.label {
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.files .eggnog.starter {
+    background: #fff;
+    color: #705df2
+}
+
+.eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.files .eggnog.starter .eggnog.label {
+    opacity: 1
+}
+
+.eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.files .eggnog.starter .eggnog.hover {
+    background: #705df2
+}
+
+.eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.files .eggnog.final {
+    color: #fff
+}
+
+.eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.files .eggnog.final .eggnog.label {
+    opacity: 1
+}
+
+.eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.info-button {
+    display: inline-block;
+    padding-top: 6px;
+    padding-bottom: 6px
+}
+
+.eggnog.page.lessons .eggnog.main .eggnog.details .eggnog.aside .eggnog.info-button.is-link .eggnog.label {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-position: under
+}
+```

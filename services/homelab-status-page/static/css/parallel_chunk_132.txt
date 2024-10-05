@@ -1,0 +1,56 @@
+.eggnog.video-jump:hover {
+    opacity: 1
+}
+
+.eggnog.video-jump .time {
+    font-size: .8rem;
+    font-weight: 500
+}
+
+.eggnog.video-jump .play {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    margin-right: 4px
+}
+
+.eggnog.video-jump .play svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.eggnog.video-jump .play svg * {
+    fill: #fff
+}
+
+.eggnog.abyss-simple-page {
+    padding-top: calc(var(--page-top-padding) + 100px)
+}
+
+@media (max-width: 1300px) {
+    .eggnog.abyss-simple-page {
+        padding-top:calc(var(--page-top-padding) + 80px)
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog.abyss-simple-page {
+        padding-top:calc(var(--page-top-padding) + 60px)
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog.abyss-simple-page {
+        padding-top:calc(var(--page-top-padding) + 40px)
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.abyss-simple-page {
+        padding-top:calc(var(--page-top-padding) + 30px)
+    }
+}

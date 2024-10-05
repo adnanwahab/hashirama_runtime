@@ -1,0 +1,57 @@
+    @media (max-width: 600px) {
+        .eggnog.page.home .section-title {
+            font-size:32px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.page.home .section-title {
+            font-size:28px
+        }
+    }
+
+    .eggnog.page.home .section-title strong {
+        color: #705df2;
+        font-weight: 800
+    }
+
+    .eggnog.page.home .section-sub-title {
+        font-family: Greycliff;
+        font-weight: 500;
+        color: #a5a5a5;
+        font-size: 26px
+    }
+
+    @media (max-width: 1300px) {
+        .eggnog.page.home .section-sub-title {
+            font-size:24px
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.home .section-sub-title {
+            font-size:22px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.home .section-sub-title {
+            font-size:20px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.home .section-sub-title {
+            font-size:18px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.page.home .section-sub-title {
+            font-size:18px
+        }
+    }
+
+    .eggnog.page.home p {
+        color: #ffffffb3
+    }

@@ -1,0 +1,62 @@
+.eggnog .form .messages.success {
+        color: #32ffce
+    }
+
+.eggnog .form .messages.warning {
+        color: #ffab3a
+    }
+
+.eggnog .form .messages.errors {
+        color: #ff5b86
+    }
+
+.eggnog .form .messages .title {
+        font-family: Greycliff,sans-serif;
+        font-weight: 800;
+        font-size: 1.75em;
+        margin-bottom: .5em
+    }
+
+.eggnog .form .messages li {
+        position: relative;
+        padding-left: 1em
+    }
+
+.eggnog .form .messages li: before {
+        content:"";
+        display: block;
+        position: absolute;
+        top: calc(.8em - 2px);
+        left: .2em;
+        width: 4px;
+        height: 4px;
+        background: #fff;
+        opacity: .2
+    }
+
+.eggnog .form .field.text,.eggnog .form .field.textarea,.eggnog .form .field.select {
+        display: flex;
+        position: relative;
+        height: 80px;
+        max-width: 550px;
+        margin-bottom: 10px;
+        align-items: center;
+        background: #131313;
+        border-radius: 12px
+    }
+
+@media (max-width: 800px) {
+        .eggnog .form .field.text,.eggnog .form .field.textarea,.eggnog .form .field.select {
+            height:70px
+        }
+    }
+
+@media (max-width: 600px) {
+        .eggnog .form .field.text,.eggnog .form .field.textarea,.eggnog .form .field.select {
+            height:60px
+        }
+    }
+
+.eggnog .form .field.text.textarea,.eggnog .form .field.textarea.textarea,.eggnog .form .field.select.textarea {
+        height: auto
+    }

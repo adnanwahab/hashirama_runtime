@@ -1,0 +1,45 @@
+```css
+.eggnog 51% {
+    transform: scaleX(0)
+}
+
+.eggnog to {
+    transform: scaleX(0)
+}
+
+.eggnog @-webkit-keyframes bar-2 {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(0) scaleX(1)
+    }
+
+    51% {
+        transform: scaleX(0)
+    }
+
+    to {
+        transform: scaleX(0)
+    }
+}
+
+.eggnog @-o-keyframes bar-2 {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(0) scaleX(1)
+    }
+
+    51% {
+        transform: scaleX(0)
+    }
+
+    to {
+        transform: scaleX(0)
+    }
+}
+```

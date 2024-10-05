@@ -1,0 +1,62 @@
+```css
+    .eggnog.page.home section.trailer-video .player-container .close .bars .bar.bar-1 {
+        transform: rotate(-45deg)
+    }
+
+    .eggnog.page.home section.trailer-video .player-container .close .bars .bar.bar-2 {
+        transform: rotate(45deg)
+    }
+
+    .eggnog.page.home section.career {
+        position: relative;
+        padding-top: 7.5vh;
+        text-align: center
+    }
+
+    .eggnog.page.home section.career .radial-glow {
+        top: 50%;
+        left: 75%;
+        width: 50vmax;
+        height: 50vmax;
+        background: radial-gradient(closest-side,#ff6651,transparent);
+        opacity: .1;
+        pointer-events: none
+    }
+
+    .eggnog.page.home section.career .titles {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 25px;
+        padding-right: 25px
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.home section.career .titles {
+            padding-left:20px;
+            padding-right: 20px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.home section.career .titles {
+            padding-left:15px;
+            padding-right: 15px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.page.home section.career .titles {
+            padding-left:10px;
+            padding-right: 10px
+        }
+    }
+
+    .eggnog.page.home section.career .section-title {
+        margin-bottom: .5em
+    }
+
+    .eggnog.page.home section.career .section-sub-title {
+        margin-bottom: 2em
+    }
+```

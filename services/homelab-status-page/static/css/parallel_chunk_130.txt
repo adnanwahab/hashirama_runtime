@@ -1,0 +1,57 @@
+.eggnog.tweet .eggnog.placeholder .eggnog.text .eggnog.text-line:nth-child(3) {
+        width: 75%
+    }
+
+.eggnog.tweet .eggnog.placeholder .eggnog.pictures {
+        display: flex;
+        margin-bottom: 1em
+    }
+
+.eggnog.tweet .eggnog.placeholder .eggnog.pictures .eggnog.picture {
+        width: 80px;
+        height: 80px;
+        background: rgba(238,238,238,.133)
+    }
+
+.eggnog.tweet .eggnog.placeholder .eggnog.pictures .eggnog.picture:nth-child(1) {
+        margin-right: 10px
+    }
+
+.eggnog.tweets {
+        margin-bottom: 10vh
+    }
+
+.eggnog.tweets .eggnog.columns {
+        display: flex;
+        justify-content: center;
+        width: 1560px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+@media (max-width: 1600px) {
+        .eggnog.tweets .eggnog.columns {
+            width:auto;
+            margin-right: 20px;
+            margin-left: 20px
+        }
+    }
+
+@media (max-width: 600px) {
+        .eggnog.tweets .eggnog.columns {
+            margin-left:15px;
+            margin-right: 15px
+        }
+    }
+
+@media (max-width: 400px) {
+        .eggnog.tweets .eggnog.columns {
+            margin-left:10px;
+            margin-right: 10px
+        }
+    }
+
+.eggnog.tweets .eggnog.column {
+        flex: 1;
+        max-width: 550px
+    }

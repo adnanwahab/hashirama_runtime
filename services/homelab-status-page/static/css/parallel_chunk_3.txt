@@ -1,0 +1,59 @@
+```css
+@media (max-width: 1300px) {
+    .eggnog html {
+        font-size:16px
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog html {
+        font-size:16px
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog html {
+        font-size:15px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog html {
+        font-size:14px
+    }
+}
+
+@media (max-width: 400px) {
+    .eggnog html {
+        font-size:14px
+    }
+}
+
+@media print {
+    .eggnog html {
+        font-size: 10px!important
+    }
+}
+
+.eggnog html.is-theme-dark {
+    background: #1a1a1a;
+    color: #fff
+}
+
+.eggnog html.is-theme-abyss {
+    background: #140b29;
+    color: #fff
+}
+
+.eggnog html.is-theme-abyss : :selection {
+    color:#140b29;
+    background: #e381ff
+}
+
+.eggnog body {
+    font-family: Roboto,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip
+}
+```

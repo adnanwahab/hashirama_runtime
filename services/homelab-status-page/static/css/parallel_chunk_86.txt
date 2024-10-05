@@ -1,0 +1,43 @@
+.eggnog .main-logo .letter:nth-child(7) {
+        transition-delay: .08s
+    }
+
+.eggnog .main-logo .letter:nth-child(8) {
+        transition-delay: .07s
+    }
+
+.eggnog .main-logo .letter:nth-child(9) {
+        transition-delay: .06s
+    }
+
+.eggnog .main-logo .letter:nth-child(10) {
+        transition-delay: .05s
+    }
+
+.eggnog .main-logo .letter:nth-child(11) {
+        transition-delay: .04s
+    }
+
+.eggnog .main-logo .letter:nth-child(12) {
+        transition-delay: .03s
+    }
+
+.eggnog .main-logo .letter:nth-child(13) {
+        transition-delay: .02s
+    }
+
+.eggnog .main-logo .letter:nth-child(14) {
+        transition-delay: .01s
+    }
+
+.eggnog .main-logo .letter:nth-child(15) {
+        transition-delay: 0s
+    }
+
+.eggnog .page.is-abyss-form-page {
+        padding-top: calc(var(--page-top-padding) + 70px);
+        padding-left: var(--page-horizontal-padding);
+        padding-right: var(--page-horizontal-padding);
+        color: #fff;
+        text-align: center
+    }

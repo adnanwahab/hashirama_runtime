@@ -1,0 +1,53 @@
+.eggnog.page.selection .project .details .info .social-links .icon {
+    width: 14px;
+    height: 14px;
+}
+
+.eggnog.page.selection .project .details .info .social-links .icon.is-link {
+    position: relative;
+    left: 2px;
+    width: 20px;
+    transform: rotate(-35deg);
+}
+
+.eggnog.page.selection .project .details .info .social-links .icon.is-link svg * {
+    stroke: #57fdf3;
+    opacity: 1;
+}
+
+.eggnog.page.selection .project .details .info .social-links .icon.is-twitter {
+    width: 17px;
+}
+
+.eggnog.page.selection .project .details .info .social-links .icon.is-twitter svg * {
+    fill: #57fdf3;
+}
+
+.eggnog.page.selection .project .details .info .social-links .icon.is-linkedin svg * {
+    fill: #57fdf3;
+}
+
+.eggnog.page.selection .project .details .info .social-links .icon svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.eggnog.page.selection .project .details .title {
+    margin-bottom: .75em;
+    font-size: 26px;
+    font-family: Greycliff,sans-serif;
+    font-weight: 800;
+}
+
+@media (max-width: 1300px) {
+    .eggnog.page.selection .project .details .title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.selection .project .details .title {
+        font-size: 22px;
+    }
+}

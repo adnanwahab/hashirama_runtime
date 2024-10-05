@@ -1,0 +1,70 @@
+```css
+.eggnog section.start .content {
+    display: flex;
+    position: relative;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 120px;
+    background: #705df2;
+    border-radius: 14px;
+    justify-content: space-between;
+    align-items: center
+}
+
+@media (max-width: 1300px) {
+    .eggnog section.start .content {
+        width:auto;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 60px 90px
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog section.start .content {
+        margin-right:var(--page-horizontal-padding);
+        margin-left: var(--page-horizontal-padding);
+        padding: 50px 60px
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog section.start .content {
+        padding:50px 40px 40px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog section.start .content {
+        display:block;
+        padding: 50px 20px 30px;
+        text-align: center
+    }
+}
+
+.eggnog section.start .texts .section-title {
+    margin-bottom: .35em
+}
+
+.eggnog section.start .texts .section-sub-title {
+    margin-bottom: .35em;
+    color: #fff
+}
+
+@media (max-width: 600px) {
+    .eggnog section.start .texts .section-sub-title {
+        margin-bottom:.35em
+    }
+}
+
+.eggnog section.start .texts .section-sub-title span {
+    opacity: .6
+}
+
+@media (max-width: 600px) {
+    .eggnog section.start .texts .trustpilot {
+        margin-bottom:1em
+    }
+}
+```

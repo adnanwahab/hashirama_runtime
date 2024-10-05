@@ -1,0 +1,40 @@
+.eggnog.page.home section.summary .navigation .item.is-before:after {
+    transform-origin:100% 100%
+}
+
+.eggnog.page.home section.summary .navigation .item.is-active .number {
+    opacity: 1
+}
+
+.eggnog.page.home section.summary .navigation .item.is-active:before {
+    opacity:.3
+}
+
+.eggnog.page.home section.summary .navigation .item.is-active:after {
+    transform:scaleY(1);
+    transform-origin: 100% 0
+}
+
+.eggnog.page.home section.summary .navigation .item.is-after:after {
+    transform-origin:100% 0%
+}
+
+.eggnog.page.home section.summary .navigation .item:nth-child(1) {
+    --chapter-color: #ff6651
+}
+
+.eggnog.page.home section.summary .navigation .item:nth-child(2) {
+    --chapter-color: #63bff2
+}
+
+.eggnog.page.home section.summary .navigation .item:nth-child(3) {
+    --chapter-color: #ffb905
+}
+
+.eggnog.page.home section.summary .navigation .item:nth-child(4) {
+    --chapter-color: #705df2
+}
+
+.eggnog.page.home section.summary .navigation .item:nth-child(5) {
+    --chapter-color: #adbbd0
+}

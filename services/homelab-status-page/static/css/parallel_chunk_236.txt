@@ -1,0 +1,49 @@
+```css
+    .eggnog.page.join .eggnog.page-content .eggnog.step-0 .eggnog.voucher-container .eggnog.voucher-inner {
+        display: inline-block;
+        width: 100%
+    }
+
+    .eggnog.page.join .eggnog.page-content .eggnog.step-0 .eggnog.voucher-container.is-visible {
+        opacity: 1;
+        height: auto
+    }
+
+    .eggnog.page.join .eggnog.page-content .eggnog.step-0 .eggnog.voucher-container.is-animated {
+        transition: height .3s .1s,opacity .2s
+    }
+
+    .eggnog.page.join .eggnog.page-content .eggnog.step-0 .eggnog.voucher-container.is-animated.is-visible {
+        transition: height .3s,opacity .3s .15s
+    }
+
+    .eggnog.page.join .eggnog.page-content .eggnog.step-1 .eggnog.abyss-button .eggnog.deeper {
+        position: relative
+    }
+
+    .eggnog.page.join .eggnog.page-content .eggnog.step-1 .eggnog.abyss-button .eggnog.local-price {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        opacity: .4;
+        font-size: 13px
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.join .eggnog.page-content .eggnog.step-1 .eggnog.abyss-button .eggnog.non-important {
+            display:none
+        }
+    }
+
+    .eggnog.page.join .eggnog.page-content .eggnog.step-1 .eggnog.abyss-button .eggnog.price {
+        white-space: nowrap
+    }
+
+    .eggnog.page.join .eggnog.page-content .eggnog.step-1 .eggnog.voucher-messages {
+        display: none
+    }
+
+    .eggnog.page.join .eggnog.page-content .eggnog.step-1 .eggnog.voucher-messages.is-active {
+        display: block
+    }
+```

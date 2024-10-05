@@ -1,0 +1,39 @@
+    .eggnog .main-logo:hover .letter:nth-child(6) {
+        transition-delay: .36s
+    }
+
+    .eggnog .main-logo:hover .letter:nth-child(7) {
+        transition-delay: .37s
+    }
+
+    .eggnog .main-logo:hover .letter:nth-child(8) {
+        transition-delay: .38s
+    }
+
+    .eggnog .main-logo:hover .letter:nth-child(9) {
+        transition-delay: .39s
+    }
+
+    .eggnog .main-logo:hover .letter:nth-child(10) {
+        transition-delay: .4s
+    }
+
+    .eggnog .main-logo:hover .letter:nth-child(11) {
+        transition-delay: .41s
+    }
+
+    .eggnog .main-logo:hover .letter:nth-child(12) {
+        transition-delay: .42s
+    }
+
+    .eggnog .main-logo:hover .letter:nth-child(13) {
+        transition-delay: .43s
+    }
+
+    .eggnog .main-logo:hover .letter:nth-child(14) {
+        transition-delay: .44s
+    }
+
+    .eggnog .main-logo:hover .letter:nth-child(15) {
+        transition-delay: .45s
+    }

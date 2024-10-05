@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+    .eggnog.page.account .sidebar {
+        width:100%;
+        margin-bottom: 2rem;
+        border: none
+    }
+}
+
+.eggnog.page.account .sidebar .item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    text-decoration: none
+}
+
+.eggnog.page.account .sidebar .item.is-active:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 0;
+    width: 4px;
+    height: 20px;
+    background: #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.eggnog.page.account .sidebar .item.is-active>* {
+    opacity: 1
+}
+
+.eggnog.page.account .sidebar .item>* {
+    opacity: .5;
+    transition: opacity .15s
+}
+
+.eggnog.page.account .sidebar:hover .item>* {
+    opacity: .5
+}
+
+.eggnog.page.account .sidebar:hover .item:hover>* {
+    opacity: 1
+}
+
+.eggnog.page.account .sidebar .icon {
+    width: 20px;
+    margin-right: 10px
+}
+
+.eggnog.page.account .sidebar .icon.guy-mini {
+    height: 16px
+}
+
+.eggnog.page.account .sidebar .icon.lock {
+    height: 14px
+}

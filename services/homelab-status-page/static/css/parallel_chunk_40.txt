@@ -1,0 +1,57 @@
+    @-o-keyframes buy-object-floating {
+        0% {
+            transform: translateY(-30px)
+        }
+
+        to {
+            transform: translateY(30px)
+        }
+    }
+
+    @keyframes buy-object-floating {
+        0% {
+            transform: translateY(-30px)
+        }
+
+        to {
+            transform: translateY(30px)
+        }
+    }
+
+    .eggnog.buy .eggnog.buy-top {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-top: 7.5vh;
+        padding-bottom: 5vh
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.buy .eggnog.buy-top {
+            padding-bottom:0
+        }
+    }
+
+    .eggnog.buy .eggnog.buy-top>* {
+        position: relative
+    }
+
+    .eggnog.buy .eggnog.buy-top .section-title {
+        margin-bottom: .5em;
+        font-size: 48px;
+        font-family: Greycliff,sans-serif;
+        font-weight: 800;
+        text-align: center
+    }
+
+    @media (max-width: 1300px) {
+        .eggnog.buy .eggnog.buy-top .section-title {
+            font-size:44px
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.buy .eggnog.buy-top .section-title {
+            font-size:40px
+        }
+    }

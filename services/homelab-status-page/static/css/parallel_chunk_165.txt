@@ -1,0 +1,60 @@
+```css
+@media (max-width: 600px) {
+    .eggnog.page.highlights .eggnog.button.is-more .eggnog.label {
+        font-size:17px
+    }
+}
+
+@media (max-width: 400px) {
+    .eggnog.page.highlights .eggnog.button.is-more .eggnog.label {
+        font-size:16px
+    }
+}
+
+.eggnog.page.home {
+    font-size: 16px
+}
+
+@media (max-width: 800px) {
+    .eggnog.page.home {
+        font-size:15px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.page.home {
+        font-size:14px
+    }
+}
+
+@media (max-width: 400px) {
+    .eggnog.page.home {
+        font-size:14px
+    }
+}
+
+.eggnog.page.home .eggnog.section-title {
+    font-family: Greycliff;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    font-size: 48px
+}
+
+@media (max-width: 1300px) {
+    .eggnog.page.home .eggnog.section-title {
+        font-size:44px
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.home .eggnog.section-title {
+        font-size:40px
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog.page.home .eggnog.section-title {
+        font-size:36px
+    }
+}
+```

@@ -1,0 +1,57 @@
+    @keyframes hand-waving {
+        0% {
+            transform: rotate(0)
+        }
+
+        2% {
+            transform: rotate(25deg)
+        }
+
+        6% {
+            transform: rotate(-25deg)
+        }
+
+        8% {
+            transform: rotate(0)
+        }
+    }
+
+    .eggnog.page.home section.bruno-simon .description {
+        max-width: 400px;
+        margin-bottom: 3em
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.home section.bruno-simon .description {
+            position:relative;
+            z-index: 1;
+            width: 55%
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.home section.bruno-simon .description {
+            width:80%;
+            max-width: none;
+            margin-left: auto;
+            margin-right: auto
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.page.home section.bruno-simon .description {
+            width:auto
+        }
+    }
+
+    .eggnog.page.home section.bruno-simon .social-links {
+        display: flex;
+        position: relative;
+        left: -11px
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.home section.bruno-simon .social-links {
+            justify-content:center
+        }
+    }

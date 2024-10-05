@@ -1,0 +1,43 @@
+.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-button:hover .eggnog.icon.is-scroll-up svg .eggnog.arrow {
+    animation: scroll-up-icon 2s infinite
+}
+
+@-moz-keyframes scroll-up-icon {
+    0% {
+        transform: translateY(0)
+    }
+
+    10% {
+        transform: translateY(6px)
+    }
+
+    20% {
+        transform: translateY(0)
+    }
+
+    30% {
+        transform: translateY(6px)
+    }
+
+    40% {
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes scroll-up-icon {
+    0% {
+        transform: translateY(0)
+    }
+
+    10% {
+        transform: translateY(6px)
+    }
+
+    20% {
+        transform: translateY(0)
+    }
+
+    30% {
+        transform: translateY(6px)
+    }
+}

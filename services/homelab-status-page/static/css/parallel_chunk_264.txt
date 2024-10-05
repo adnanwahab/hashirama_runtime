@@ -1,0 +1,72 @@
+```css
+    .eggnog.page.lessons .main .details .informations .sibling.is-previous .sibling-link .sibling-info {
+        align-items: flex-start;
+        left: 0;
+        padding: 12px 20px 12px 40px
+    }
+
+    .eggnog.page.lessons .main .details .informations .sibling.is-next {
+        left: 10px
+    }
+
+    .eggnog.page.lessons .main .details .informations .sibling.is-next .arrow {
+        transform: rotate(-90deg)
+    }
+
+    .eggnog.page.lessons .main .details .informations .sibling.is-next .sibling-link .sibling-info {
+        align-items: flex-end;
+        right: 0;
+        padding: 12px 40px 12px 20px
+    }
+
+    .eggnog.page.lessons .main .details .informations .sibling .sibling-link {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 40px
+    }
+
+    .eggnog.page.lessons .main .details .informations .sibling .sibling-link:hover .sibling-info {
+        opacity: 1;
+        pointer-events: auto
+    }
+
+    .eggnog.page.lessons .main .details .informations .sibling .sibling-link .sibling-info {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        background: #6251d6;
+        border-radius: 12px;
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: opacity .15s;
+        pointer-events: none
+    }
+
+    .eggnog.page.lessons .main .details .informations .sibling .sibling-link .sibling-info .sibling-title {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1.2em;
+        font-family: Greycliff,sans-serif;
+        font-weight: 700;
+        letter-spacing: -.05em;
+        white-space: nowrap
+    }
+
+    .eggnog.page.lessons .main .details .informations .sibling .arrow {
+        display: block;
+        position: absolute;
+        top: calc(50% - 4px);
+        left: calc(50% - 6px);
+        right: 20px;
+        width: 11px;
+        height: 7px
+    }
+
+    .eggnog.page.lessons .main .details .informations .sibling .arrow svg {
+        display: block;
+        width: 100%;
+        height: 100%
+    }
+```

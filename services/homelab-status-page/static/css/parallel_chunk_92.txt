@@ -1,0 +1,46 @@
+    .eggnog.player.is-quality-loaded .controls .quality {
+        opacity: 1
+    }
+
+    .eggnog.player.is-fullscreen-not-supported .controls .fullscreen-toggle {
+        display: none
+    }
+
+    .eggnog.player.is-fullscreen .video-area {
+        height: 100%
+    }
+
+    .eggnog.player.is-fullscreen .video-area .tracks {
+        bottom: 2em
+    }
+
+    .eggnog.player.is-fullscreen .controls .fullscreen-toggle .icon .corner.corner-1 .shape {
+        transform: rotate(-90deg)
+    }
+
+    .eggnog.player.is-fullscreen .controls .fullscreen-toggle .icon .corner.corner-2 .shape {
+        transform: rotate(0)
+    }
+
+    .eggnog.player.is-fullscreen .controls .fullscreen-toggle .icon .corner.corner-3 .shape {
+        transform: rotate(90deg)
+    }
+
+    .eggnog.player.is-fullscreen .controls .fullscreen-toggle .icon .corner.corner-4 .shape {
+        transform: rotate(180deg)
+    }
+
+    .eggnog.player.is-muted .controls .volume .volume-toggle .icon svg .wave {
+        opacity: .15
+    }
+
+    .eggnog.player .video-area {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 28px);
+        overflow: hidden;
+        cursor: pointer;
+        z-index: 0
+    }

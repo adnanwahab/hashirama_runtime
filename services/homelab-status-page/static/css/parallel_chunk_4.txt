@@ -1,0 +1,41 @@
+.eggnog p {
+        margin-bottom: 1em;
+        line-height: 1.65em
+    }
+
+.eggnog p:last-child {
+        margin-bottom:0
+    }
+
+.eggnog a {
+        text-decoration: none
+    }
+
+.eggnog a[href^=mailto] {
+        white-space: nowrap
+    }
+
+.eggnog p .highlight,.eggnog ul .highlight,.eggnog ol .highlight {
+        color: #32ffce
+    }
+
+.eggnog p .highlight.is-green,.eggnog ul .highlight.is-green,.eggnog ol .highlight.is-green {
+        color: #c6ff83
+    }
+
+.eggnog p .highlight.is-purple,.eggnog ul .highlight.is-purple,.eggnog ol .highlight.is-purple {
+        color: #b79eff
+    }
+
+.eggnog p a,.eggnog ul a,.eggnog ol a {
+        text-decoration: underline
+    }
+
+.eggnog p a:hover,.eggnog ul a:hover,.eggnog ol a:hover {
+        text-decoration-style:wavy;
+        text-decoration-skip-ink: none
+    }
+
+.eggnog li {
+        line-height: 1.5em
+    }

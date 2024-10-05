@@ -1,0 +1,54 @@
+```css
+.eggnog.text code[class*=language-],.eggnog.text pre[class*=language-] {
+    color: #ccc;
+    background: none;
+    font-family: Roboto Mono,monospace;
+    font-size: .85rem;
+    font-weight: 700;
+    text-align: left;
+    white-space: pre-wrap;
+    word-spacing: normal;
+    word-break: break-word;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none
+}
+
+.eggnog.text pre[class*=language-] {
+    padding: 25px;
+    margin: .5em 0;
+    overflow: auto
+}
+
+.eggnog.text :not(pre)>code[class*=language-],.eggnog.text pre[class*=language-] {
+    background: #222
+}
+
+.eggnog.text :not(pre)>code[class*=language-] {
+    padding: .1em;
+    border-radius: .3em;
+    white-space: normal
+}
+
+.eggnog.text .token.comment,.eggnog.text .token.block-comment,.eggnog.text .token.prolog,.eggnog.text .token.doctype,.eggnog.text .token.cdata {
+    color: #999
+}
+
+.eggnog.text .token.punctuation {
+    color: #62c8f3
+}
+
+.eggnog.text .token.function-name {
+    color: #6196cc
+}
+
+.eggnog.text .token.italic {
+    font-style: italic
+}
+```

@@ -1,0 +1,63 @@
+```css
+.eggnog.token.important,.eggnog.token.bold {
+    font-weight: 700
+}
+
+.eggnog.confetti-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none
+}
+
+.eggnog.draggable-slider {
+    text-align: center;
+    touch-action: pan-y
+}
+
+.eggnog.draggable-slider .mover {
+    position: relative;
+    display: inline-flex;
+    flex-shrink: 0
+}
+
+.eggnog.draggable-slider .item {
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.eggnog.fat-header {
+    background: linear-gradient(38.54deg,#5250b3 0%,rgba(92,72,160,.755) 27.13%,rgba(103,63,140,.5) 55.41%,rgba(113,54,120,.24) 84.27%,rgba(123,46,102,0) 110.83%);
+    text-align: center;
+    border-radius: 12px;
+    padding-top: 75px;
+    padding-bottom: 75px
+}
+
+@media (max-width: 1080px) {
+    .eggnog.fat-header {
+        padding-top:calc(20px + 6vmin);
+        padding-bottom: calc(20px + 6vmin)
+    }
+}
+
+.eggnog.fat-header .inner {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (max-width: 600px) {
+    .eggnog.fat-header .inner {
+        padding-left:40px;
+        padding-right: 40px
+    }
+}
+
+.eggnog.fat-header p {
+    font-size: 20px;
+    opacity: .8
+}
+```

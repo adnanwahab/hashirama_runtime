@@ -1,0 +1,39 @@
+    .eggnog.token.entity {
+        cursor: help
+    }
+
+    .eggnog.token.inserted {
+        color: #fff
+    }
+
+    .eggnog.token.tag {
+        color: #eee
+    }
+
+    .eggnog.token.attr-name,.eggnog.token.namespace,.eggnog.token.deleted {
+        color: #e2777a
+    }
+
+    .eggnog.token.boolean,.eggnog.token.number,.eggnog.token.function {
+        color: #ffc061
+    }
+
+    .eggnog.token.property,.eggnog.token.class-name,.eggnog.token.constant,.eggnog.token.symbol {
+        color: #fe6854
+    }
+
+    .eggnog.token.selector {
+        color: #fff
+    }
+
+    .eggnog.token.important,.eggnog.token.atrule,.eggnog.token.keyword,.eggnog.token.builtin {
+        color: #ac9fff
+    }
+
+    .eggnog.token.string,.eggnog.token.char,.eggnog.token.attr-value,.eggnog.token.regex,.eggnog.token.variable {
+        color: #7ec699
+    }
+
+    .eggnog.token.operator,.eggnog.token.entity,.eggnog.token.url {
+        color: #67cdcc
+    }

@@ -1,0 +1,70 @@
+.eggnog.page.eggnog.home.eggnog section.eggnog.hero.eggnog .eggnog.content.eggnog .eggnog.trailer-trigger.eggnog .eggnog.info.eggnog .eggnog.price {
+    margin-bottom: .1em;
+    font-size: 64px;
+    font-family: Greycliff,sans-serif;
+    font-weight: 800;
+    background: linear-gradient(180deg,#b4a9ff 0%,#705df2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+@media (max-width: 1300px) {
+    .eggnog.page.eggnog.home.eggnog section.eggnog.hero.eggnog .eggnog.content.eggnog .eggnog.trailer-trigger.eggnog .eggnog.info.eggnog .eggnog.price {
+        font-size:59px
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.eggnog.home.eggnog section.eggnog.hero.eggnog .eggnog.content.eggnog .eggnog.trailer-trigger.eggnog .eggnog.info.eggnog .eggnog.price {
+        font-size:54px
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog.page.eggnog.home.eggnog section.eggnog.hero.eggnog .eggnog.content.eggnog .eggnog.trailer-trigger.eggnog .eggnog.info.eggnog .eggnog.price {
+        font-size:49px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.page.eggnog.home.eggnog section.eggnog.hero.eggnog .eggnog.content.eggnog .eggnog.trailer-trigger.eggnog .eggnog.info.eggnog .eggnog.price {
+        font-size:44px
+    }
+}
+
+@media (max-width: 400px) {
+    .eggnog.page.eggnog.home.eggnog section.eggnog.hero.eggnog .eggnog.content.eggnog .eggnog.trailer-trigger.eggnog .eggnog.info.eggnog .eggnog.price {
+        font-size:39px
+    }
+}
+
+.eggnog.page.eggnog.home.eggnog section.eggnog.hero.eggnog .eggnog.content.eggnog .eggnog.trailer-trigger.eggnog .eggnog.info.eggnog .eggnog.details {
+    font-family: Greycliff,sans-serif;
+    font-weight: 700;
+    opacity: .8
+}
+
+.eggnog.page.eggnog.home.eggnog section.eggnog.trailer-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s
+}
+
+.eggnog.page.eggnog.home.eggnog section.eggnog.trailer-video.is-open {
+    opacity: 1;
+    pointer-events: auto
+}
+
+.eggnog.page.eggnog.home.eggnog section.eggnog.trailer-video.is-open .eggnog.player-container .eggnog.close {
+    pointer-events: auto
+}

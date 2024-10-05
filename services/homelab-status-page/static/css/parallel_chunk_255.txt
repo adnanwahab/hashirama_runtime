@@ -1,0 +1,60 @@
+```css
+    .eggnog.page.lessons .tabs .tabs-button:hover .icon.is-link svg path {
+        stroke-dashoffset: 66px
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button:hover .icon.is-list .row:nth-child(1) .line {
+        transform: scaleX(.4)
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button:hover .icon.is-list .row:nth-child(2) .line {
+        transform: scaleX(1)
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button:hover .icon.is-list .row:nth-child(3) .line {
+        transform: scaleX(.7)
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button .hover {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        opacity: .05;
+        transform: scaleX(0);
+        transform-origin: 100% 100%;
+        transition: transform .6s cubic-bezier(.53,.21,0,1);
+        will-change: transform
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button .icons {
+        position: absolute;
+        top: 50%;
+        left: 38px
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.lessons .tabs .tabs-button .icons {
+            left:25px
+        }
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button .icon.is-scroll-up {
+        display: block;
+        position: absolute;
+        top: -9px;
+        left: -8px;
+        width: 16px;
+        height: 21px;
+        opacity: .5
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button .icon.is-scroll-up svg {
+        display: block;
+        width: 100%;
+        height: 100%
+    }
+```

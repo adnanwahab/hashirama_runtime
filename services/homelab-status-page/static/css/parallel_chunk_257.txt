@@ -1,0 +1,73 @@
+.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-button .eggnog.icon.is-list .eggnog.row:nth-child(3) .eggnog.line {
+    transform: scaleX(1)
+}
+
+.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-button .eggnog.label {
+    position: relative;
+    margin-left: 70px;
+    font-family: Greycliff,sans-serif;
+    font-weight: 700;
+    letter-spacing: .05em;
+    opacity: .8
+}
+
+@media (max-width: 400px) {
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-button .eggnog.label {
+        display:none
+    }
+}
+
+.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-button .eggnog.inactive-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.133),rgba(0,0,0,.4));
+    opacity: 0;
+    transition: opacity .3s
+}
+
+.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 500px;
+    max-height: calc(100vh - 90px);
+    transform: translateY(100%);
+    transition: transform .5s cubic-bezier(.53,.21,0,1);
+    will-change: transform;
+    box-shadow: 0 -40px 40px #0009
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover {
+        box-shadow:0 0 40px #0009;
+        border-top-left-radius: 15px
+    }
+}
+
+.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover.is-visible {
+    transform: translate(0)
+}
+
+.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover.is-visible .eggnog.tabs-button:not(.is-active) .eggnog.inactive-shade {
+    opacity: 1
+}
+
+.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-targets {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1a1a1a;
+    overflow: hidden
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-targets {
+        border-top-left-radius:15px
+    }
+}

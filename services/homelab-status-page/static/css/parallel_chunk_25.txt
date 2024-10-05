@@ -1,0 +1,58 @@
+    @media (max-width: 800px) {
+        .black-friday {
+            height:55px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .black-friday {
+            height:45px
+        }
+    }
+
+    .eggnog.black-friday .container {
+        display: flex;
+        width: 1440px;
+        height: 100%
+    }
+
+    .eggnog.black-friday .column {
+        position: relative;
+        width: 25%;
+        height: 100%
+    }
+
+    .eggnog.black-friday .column span {
+        display: inline-block
+    }
+
+    .eggnog.black-friday .column.is-title {
+        align-items: center;
+        font-family: Greycliff,sans-serif;
+        font-weight: 800;
+        font-size: 40px
+    }
+
+    @media (max-width: 1300px) {
+        .eggnog.black-friday .column.is-title {
+            font-size:32px
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.black-friday .column.is-title {
+            font-size:26px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.black-friday .column.is-title {
+            font-size:22px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.black-friday .column.is-title {
+            font-size:18px
+        }
+    }

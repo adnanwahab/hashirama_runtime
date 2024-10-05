@@ -1,0 +1,68 @@
+    .eggnog.page.home section.highlights {
+        padding-top: 5vh;
+        text-align: center
+    }
+
+    .eggnog.page.home section.highlights .section-title {
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5em
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.home section.highlights .section-title {
+            width:auto;
+            margin-left: var(--page-horizontal-padding);
+            margin-right: var(--page-horizontal-padding)
+        }
+    }
+
+    .eggnog.page.home section.highlights .section-title strong {
+        color: #705df2;
+        font-weight: 800
+    }
+
+    .eggnog.page.home section.beginner {
+        padding-top: 10vh;
+        background: radial-gradient(150% 150% at 60% 0%,rgba(112,93,242,.2),transparent),#150c21;
+        text-align: center;
+        color: #fff;
+        overflow: hidden;
+        --item-width: 323px;
+        --item-margin: 25px
+    }
+
+    @media (max-width: 1600px) {
+        .eggnog.page.home section.beginner {
+            --item-width: 300px
+        }
+    }
+
+    @media (max-width: 1300px) {
+        .eggnog.page.home section.beginner {
+            --item-width: 280px;
+            --item-margin: 20px
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.home section.beginner {
+            --item-width: 260px;
+            --item-margin: 15px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.home section.beginner {
+            --item-width: 240px;
+            --item-margin: 10px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.home section.beginner {
+            --item-width: 280px;
+            --item-margin: 0
+        }
+    }

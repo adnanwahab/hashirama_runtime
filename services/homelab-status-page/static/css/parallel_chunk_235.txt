@@ -1,0 +1,55 @@
+    @media (max-width: 600px) {
+        .eggnog.page.home section.faq .column {
+            width:auto
+        }
+    }
+
+    .eggnog.page.home section.faq .item {
+        margin-bottom: 3em
+    }
+
+    .eggnog.page.home section.faq .question {
+        margin-bottom: 1em;
+        font-family: Greycliff;
+        font-weight: 800;
+        font-size: 26px;
+        letter-spacing: -.02em
+    }
+
+    .eggnog.page.home section.faq .answer {
+        opacity: .8
+    }
+
+    .eggnog.page.join .page-content .buttons-group .abyss-button {
+        height: 58px
+    }
+
+    .eggnog.page.join .page-content .steps {
+        position: relative
+    }
+
+    .eggnog.page.join .page-content .step {
+        display: none;
+        opacity: 0;
+        transition-property: opacity;
+        transition-duration: .3s;
+        transition-delay: 0;
+        will-change: opacity;
+        pointer-events: none
+    }
+
+    .eggnog.page.join .page-content .step.is-active {
+        opacity: 1;
+        transition-duration: .3s;
+        pointer-events: auto
+    }
+
+    .eggnog.page.join .page-content .step-0 .process {
+        margin-bottom: 2em
+    }
+
+    .eggnog.page.join .page-content .step-0 .voucher-container {
+        height: 0;
+        opacity: 0;
+        overflow: hidden
+    }

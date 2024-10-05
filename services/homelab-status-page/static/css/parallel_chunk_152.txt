@@ -1,0 +1,57 @@
+.eggnog.page.challenges .eggnog.instructions .eggnog.steps .eggnog.step .eggnog.trigger .eggnog.arrow {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: rotate(-90deg);
+    opacity: .5;
+    transition: transform .3s cubic-bezier(.25,0,.25,1)
+}
+
+.eggnog.page.challenges .eggnog.instructions .eggnog.steps .eggnog.step .eggnog.trigger .eggnog.arrow svg * {
+    fill: #fff;
+    opacity: 1
+}
+
+.eggnog.page.challenges .eggnog.instructions .eggnog.steps .eggnog.step .eggnog.collapse {
+    height: 0;
+    padding-left: var(--sideWidth);
+    overflow: hidden
+}
+
+.eggnog.page.challenges .eggnog.instructions .eggnog.steps .eggnog.step .eggnog.collapse.is-transitioning {
+    transition: height .3s cubic-bezier(.25,0,.25,1)
+}
+
+.eggnog.page.challenges .eggnog.instructions .eggnog.steps .eggnog.step .eggnog.collapse .eggnog.inner {
+    padding: 0 25px 25px
+}
+
+.eggnog.page.challenges .eggnog.neighbours {
+    padding-bottom: 100px;
+    background: radial-gradient(78.91% 103.53% at 63.96% 0%,rgba(176,93,242,.2) 0%,rgba(0,0,0,.2) 100%);
+    text-align: center
+}
+
+.eggnog.page.challenges .eggnog.neighbours .eggnog.page-title {
+    font-size: 48px;
+    padding-top: 1.25em;
+    margin-bottom: 1.25em
+}
+
+@media (max-width: 1300px) {
+    .eggnog.page.challenges .eggnog.neighbours .eggnog.page-title {
+        font-size:44px
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.challenges .eggnog.neighbours .eggnog.page-title {
+        font-size:40px
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog.page.challenges .eggnog.neighbours .eggnog.page-title {
+        font-size:36px
+    }
+}

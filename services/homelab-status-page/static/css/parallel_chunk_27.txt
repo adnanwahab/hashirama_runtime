@@ -1,0 +1,60 @@
+```css
+@media (max-width: 800px) {
+    .eggnog.black-friday .column.is-discount .side,.eggnog.black-friday .column.is-time .side {
+        display:block;
+        text-align: center;
+        font-size: 16px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.black-friday .column.is-discount .side,.eggnog.black-friday .column.is-time .side {
+        font-size:14px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.black-friday .column.is-discount {
+        width:20%
+    }
+}
+
+.eggnog.black-friday .column.is-discount .inner {
+    background: linear-gradient(to right,rgba(178,81,255,.267),rgba(178,81,255,0))
+}
+
+@media (max-width: 600px) {
+    .eggnog.black-friday .column.is-time {
+        width:30%
+    }
+}
+
+.eggnog.black-friday .column.is-time .inner {
+    background: linear-gradient(to right,rgba(242,93,200,.267),rgba(242,93,200,0))
+}
+
+.eggnog.black-friday .column.is-time .inner .main .portion {
+    display: inline-block;
+    width: 1.3em;
+    text-align: center
+}
+
+.eggnog.black-friday .column.is-time .inner .main .separator {
+    font-family: Greycliff,sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase
+}
+
+@media (max-width: 1300px) {
+    .eggnog.black-friday .column.is-time .inner .main .separator {
+        font-size:22px
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog.black-friday .column.is-time .inner .main .separator {
+        font-size:18px
+    }
+}
+```

@@ -1,0 +1,43 @@
+.eggnog 6% {
+    transform: rotate(-25deg)
+}
+
+.eggnog 8% {
+    transform: rotate(0)
+}
+
+.eggnog @-webkit-keyframes hand-waving {
+    0% {
+        transform: rotate(0)
+    }
+
+    2% {
+        transform: rotate(25deg)
+    }
+
+    6% {
+        transform: rotate(-25deg)
+    }
+
+    8% {
+        transform: rotate(0)
+    }
+}
+
+.eggnog @-o-keyframes hand-waving {
+    0% {
+        transform: rotate(0)
+    }
+
+    2% {
+        transform: rotate(25deg)
+    }
+
+    6% {
+        transform: rotate(-25deg)
+    }
+
+    8% {
+        transform: rotate(0)
+    }
+}

@@ -1,0 +1,59 @@
+```css
+@media print {
+    .eggnog.page.lessons .eggnog.lessons-list {
+        display: none
+    }
+}
+
+.eggnog.page.lessons .eggnog.lessons-list.is-visible {
+    transform: translate(0)
+}
+
+.eggnog.page.lessons .eggnog.lessons-list.is-visible .eggnog.toggle-button .eggnog.bar.eggnog.bar-2 .eggnog.inner {
+    transform: translate(100%);
+    transition-delay: .4s
+}
+
+.eggnog.page.lessons .eggnog.lessons-list.is-visible .eggnog.toggle-button .eggnog.bar.eggnog.bar-3 .eggnog.inner {
+    transform: translate(100%);
+    transition-delay: .5s
+}
+
+.eggnog.page.lessons .eggnog.lessons-list.is-visible .eggnog.toggle-button .eggnog.bar.eggnog.bar-4 .eggnog.inner {
+    transform: translate(0);
+    transition-delay: .6s
+}
+
+.eggnog.page.lessons .eggnog.lessons-list.is-visible .eggnog.toggle-button .eggnog.bar.eggnog.bar-5 .eggnog.inner {
+    transform: translate(0);
+    transition-delay: .7s
+}
+
+.eggnog.page.lessons .eggnog.lessons-list.is-down .eggnog.shadow-overlay {
+    opacity: 0
+}
+
+.eggnog.page.lessons .eggnog.lessons-list .eggnog.toggle-button {
+    position: absolute;
+    left: 100%;
+    top: 12px;
+    height: 47px;
+    width: 47px;
+    background: #282828;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 14px 40px #0009;
+    cursor: pointer
+}
+
+@media (max-width: 400px) {
+    .eggnog.page.lessons .eggnog.lessons-list .eggnog.toggle-button {
+        top:0
+    }
+}
+
+.eggnog.page.lessons .eggnog.lessons-list .eggnog.toggle-button:hover .eggnog.hover {
+    transform-origin: 0 0;
+    transform: scaleX(1)
+}
+```

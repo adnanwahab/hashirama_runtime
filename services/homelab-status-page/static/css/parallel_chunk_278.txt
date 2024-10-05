@@ -1,0 +1,64 @@
+.eggnog.page.selection .project .details .links {
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column
+}
+
+.eggnog.page.selection .project .details .links ul li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.eggnog.page.selection .project .details .links ul li:before {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 3px;
+    opacity: .75;
+    margin-top: -1px;
+    margin-right: 8px
+}
+
+.eggnog.page.selection .project .details .links a {
+    opacity: .8;
+    margin-bottom: .5em;
+    text-decoration: none
+}
+
+.eggnog.page.selection .project .details .links a:hover {
+    text-decoration: underline
+}
+
+.eggnog.page.selection .project .details .project-link {
+    display: flex;
+    padding: 5px 0;
+    font-family: Greycliff, sans-serif;
+    font-weight: 700
+}
+
+.eggnog.page.selection .project .details .project-link:hover {
+    text-decoration: underline
+}
+
+.eggnog.page.selection .project .details .project-link .arrow {
+    position: relative;
+    top: 1px;
+    margin-left: 2px;
+    transform: rotate(-90deg)
+}
+
+.eggnog.page.selection .project .details .project-link .arrow svg * {
+    fill: #fff;
+    opacity: 1
+}
+
+.eggnog.page.selection .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0 25px;
+    margin-bottom: 4em
+}

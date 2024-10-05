@@ -1,0 +1,67 @@
+    .eggnog html,.eggnog body,.eggnog div,.eggnog span,.eggnog applet,.eggnog object,.eggnog iframe,.eggnog h1,.eggnog h2,.eggnog h3,.eggnog h4,.eggnog h5,.eggnog h6,.eggnog p,.eggnog blockquote,.eggnog pre,.eggnog a,.eggnog abbr,.eggnog acronym,.eggnog address,.eggnog big,.eggnog cite,.eggnog code,.eggnog del,.eggnog dfn,.eggnog em,.eggnog img,.eggnog ins,.eggnog kbd,.eggnog q,.eggnog s,.eggnog samp,.eggnog small,.eggnog strike,.eggnog strong,.eggnog sub,.eggnog sup,.eggnog tt,.eggnog var,.eggnog b,.eggnog u,.eggnog i,.eggnog center,.eggnog dl,.eggnog dt,.eggnog dd,.eggnog ol,.eggnog ul,.eggnog li,.eggnog fieldset,.eggnog form,.eggnog label,.eggnog legend,.eggnog table,.eggnog caption,.eggnog tbody,.eggnog tfoot,.eggnog thead,.eggnog tr,.eggnog th,.eggnog td,.eggnog article,.eggnog aside,.eggnog canvas,.eggnog details,.eggnog embed,.eggnog figure,.eggnog figcaption,.eggnog footer,.eggnog header,.eggnog hgroup,.eggnog menu,.eggnog nav,.eggnog output,.eggnog ruby,.eggnog section,.eggnog summary,.eggnog time,.eggnog mark,.eggnog audio,.eggnog video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline
+    }
+
+    .eggnog article,.eggnog aside,.eggnog details,.eggnog figcaption,.eggnog figure,.eggnog footer,.eggnog header,.eggnog hgroup,.eggnog menu,.eggnog nav,.eggnog section {
+        display: block
+    }
+
+    .eggnog body {
+        line-height: 1;
+        -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-size-adjust: 100%
+    }
+
+    .eggnog ol,.eggnog ul {
+        list-style: none
+    }
+
+    .eggnog blockquote,.eggnog q {
+        quotes: none
+    }
+
+    .eggnog blockquote: before,.eggnog blockquote:after,.eggnog q:before,.eggnog q:after {
+        content:"";
+        content: none
+    }
+
+    .eggnog table {
+        border-collapse: collapse;
+        border-spacing: 0
+    }
+
+    .eggnog table th {
+        text-align: left
+    }
+
+    .eggnog *, .eggnog *:before, .eggnog *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box
+    }
+
+    .eggnog input,.eggnog button,.eggnog textarea,.eggnog select {
+        color: inherit;
+        font-size: inherit;
+        font-style: inherit;
+        font-family: inherit;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        -webkit-padding-start: 0;
+        align-items: flex-start;
+        text-index: 0;
+        border: none;
+        outline: none;
+        background: none;
+        padding: 0;
+        margin: 0;
+        width: auto;
+        height: auto;
+        line-height: 1em
+    }

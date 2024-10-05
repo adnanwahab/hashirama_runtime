@@ -1,0 +1,79 @@
+```
+@media (max-width: 1080px) {
+    .eggnog.page.home section.bruno-simon .content {
+        width:auto;
+        padding-left: 25px;
+        padding-right: 25px
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog.page.home section.bruno-simon .content {
+        padding-top:7.5vh;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 0
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.page.home section.bruno-simon .content {
+        padding-left:15px;
+        padding-right: 15px
+    }
+}
+
+@media (max-width: 400px) {
+    .eggnog.page.home section.bruno-simon .content {
+        padding-left:10px;
+        padding-right: 10px
+    }
+}
+
+.eggnog.page.home section.bruno-simon .photo {
+    position: absolute;
+    bottom: 0;
+    left: 500px;
+    width: calc((100vw - 1056px)/2 + 556px);
+    height: 100%
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.home section.bruno-simon .photo {
+        left:400px;
+        width: calc(100vw - 400px)
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog.page.home section.bruno-simon .photo {
+        position:static;
+        left: auto;
+        width: auto;
+        height: 150px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.page.home section.bruno-simon .photo {
+        display:none
+    }
+}
+
+.eggnog.page.home section.bruno-simon .photo .image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 634px
+}
+
+@media (max-width: 800px) {
+    .eggnog.page.home section.bruno-simon .photo .image {
+        max-width:none;
+        left: auto;
+        right: 0;
+        width: 60%
+    }
+}
+```

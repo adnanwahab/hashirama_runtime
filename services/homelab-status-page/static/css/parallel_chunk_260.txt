@@ -1,0 +1,66 @@
+```css
+    .eggnog.page.lessons .tabs .tabs-mover .tabs-target .links .link .dot .check,.eggnog.page.lessons .tabs .tabs-mover .tabs-target .table-of-content .link .dot .check {
+        display: block;
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        width: 10px;
+        height: 9px;
+        transition: transform .15s;
+        transform: scale(.0001)
+    }
+
+    .eggnog.page.lessons .tabs .tabs-mover .tabs-target .links .link .dot .check svg,.eggnog.page.lessons .tabs .tabs-mover .tabs-target .table-of-content .link .dot .check svg {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+    }
+
+    .eggnog.page.lessons .tabs .tabs-mover .tabs-target .links .link .dot .check svg *, .eggnog.page.lessons .tabs .tabs-mover .tabs-target .table-of-content .link .dot .check svg * {
+        fill: #32ffce
+    }
+
+    .eggnog.page.lessons .tabs .tabs-mover .tabs-target .links .link .path,.eggnog.page.lessons .tabs .tabs-mover .tabs-target .table-of-content .link .path {
+        position: absolute;
+        bottom: 0;
+        left: -20px;
+        width: 0;
+        height: 0
+    }
+
+    .eggnog.page.lessons .tabs .tabs-mover .tabs-target .join-message {
+        margin-top: 1.5em
+    }
+
+    .eggnog.page.lessons .tabs .tabs-mover .tabs-target .join-message .inner {
+        padding: 20px 30px;
+        background: #202020;
+        border-radius: 15px
+    }
+
+    @media (max-width: 800px) {
+        .page.lessons .tabs .tabs-mover .tabs-target .join-message .alternative.alternative.is-large {
+            display:none
+        }
+
+        .page.lessons .tabs .tabs-mover .tabs-target .join-message .alternative.alternative.is-small {
+            display: inline
+        }
+    }
+
+    .eggnog.page.lessons .tabs .tabs-mover .tabs-target .join-message .alternative.is-small {
+        display: none
+    }
+
+    .eggnog.page.lessons .tabs .tabs-mover .scroll-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden
+    }
+```

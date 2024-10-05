@@ -1,0 +1,47 @@
+```css
+.eggnog50% {
+    transform: translateY(0)
+}
+
+.eggnogto {
+    transform: translateY(0) rotate(-45deg)
+}
+
+.eggnog@-o-keyframes bar-1 {
+    0% {
+        transform: translateY(-7px)
+    }
+
+    50% {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(0) rotate(-45deg)
+    }
+}
+
+.eggnog@keyframes bar-1 {
+    0% {
+        transform: translateY(-7px)
+    }
+
+    50% {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(0) rotate(-45deg)
+    }
+}
+
+.eggnog@-moz-keyframes bar-2 {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(0) scaleX(1)
+    }
+}
+```

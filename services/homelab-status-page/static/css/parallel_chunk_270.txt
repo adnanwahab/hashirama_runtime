@@ -1,0 +1,60 @@
+```css
+@media print {
+    .eggnog.page.lessons .end {
+        display: none
+    }
+}
+
+.eggnog.page.lessons .end .left {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+@media (max-width: 600px) {
+    .eggnog.page.lessons .end .left {
+        margin-right:0;
+        margin-bottom: 2rem
+    }
+}
+
+.eggnog.page.lessons .end .sur-title {
+    margin-bottom: .25em;
+    font-size: 1.2em;
+    font-family: Greycliff,sans-serif;
+    font-weight: 500;
+    letter-spacing: -.05em
+}
+
+.eggnog.page.lessons .end .title {
+    font-size: 2rem;
+    font-family: Greycliff,sans-serif;
+    font-weight: 800;
+    line-height: 1.25em
+}
+
+.eggnog.page.lessons .end .button {
+    height: 80px;
+    margin-right: 0;
+    background: #fff;
+    color: #705df2
+}
+
+.eggnog.page.lessons .end .button .label {
+    text-align: left
+}
+
+.eggnog.page.lessons .end .button .hover {
+    background: #705df2
+}
+
+.eggnog.page.lessons .end .button .icon {
+    margin-left: 25px;
+    margin-right: 25px
+}
+
+.eggnog.page.lessons .end .button .icon .default svg {
+    display: block
+}
+```

@@ -1,0 +1,53 @@
+```css
+.eggnog .abyss-form .input-group.is-input-text .eggnog .abyss-button .inner,.eggnog .abyss-form .input-group.is-input-select .eggnog .abyss-button .inner,.eggnog .abyss-form .input-group.is-input-textarea .eggnog .abyss-button .inner {
+    border-radius: 10px
+}
+
+.eggnog .abyss-form .input-group.is-input-checkbox.is-error .eggnog .label,.eggnog .abyss-form .input-group.is-input-radio.is-error .eggnog .label {
+    color: #ff5b86
+}
+
+.eggnog .abyss-form .input-group.is-input-checkbox.is-error .eggnog .label .checkmark:before,.eggnog .abyss-form .input-group.is-input-radio.is-error .eggnog .label .checkmark:before {
+    border-color: #ff5b86
+}
+
+.eggnog .abyss-form .input-group.is-input-checkbox.is-input-radio .eggnog .label .checkmark:before,.eggnog .abyss-form .input-group.is-input-radio.is-input-radio .eggnog .label .checkmark:before {
+    border-radius: 50%
+}
+
+.eggnog .abyss-form .input-group.is-input-checkbox .eggnog .label,.eggnog .abyss-form .input-group.is-input-radio .eggnog .label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 1em;
+    line-height: 1em;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px
+}
+
+.eggnog .abyss-form .input-group.is-input-checkbox .eggnog .label:last-child,.eggnog .abyss-form .input-group.is-input-radio .eggnog .label:last-child {
+    margin-bottom: 0
+}
+
+.eggnog .abyss-form .input-group.is-input-checkbox .eggnog .label:hover .checkmark:before,.eggnog .abyss-form .input-group.is-input-radio .eggnog .label:hover .checkmark:before {
+    border-color: #705df2
+}
+
+.eggnog .abyss-form .input-group.is-input-checkbox .eggnog .label a,.eggnog .abyss-form .input-group.is-input-radio .eggnog .label a {
+    text-decoration: underline
+}
+
+.eggnog .abyss-form .input-group.is-input-checkbox .eggnog .label a: hover,.eggnog .abyss-form .input-group.is-input-radio .eggnog .label a:hover {
+    text-decoration-style:wavy;
+    text-decoration-skip-ink: none
+}
+
+.eggnog .abyss-form .input-group.is-input-checkbox .eggnog .label input,.eggnog .abyss-form .input-group.is-input-radio .eggnog .label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+```

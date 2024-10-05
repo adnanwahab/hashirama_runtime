@@ -1,0 +1,55 @@
+    @-o-keyframes logo-blink {
+        0% {
+            opacity: 1
+        }
+
+        50% {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes logo-blink {
+        0% {
+            opacity: 1
+        }
+
+        50% {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    .eggnog.abyss-button {
+        position: relative;
+        display: inline-block;
+        min-width: 58px;
+        height: 58px;
+        font-size: 16px;
+        font-family: Greycliff,sans-serif;
+        font-weight: 700
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.abyss-button {
+            font-size:15px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.abyss-button {
+            font-size:14px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.abyss-button {
+            font-size:14px
+        }
+    }

@@ -1,0 +1,39 @@
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-4 {
+        transition-delay: .32s
+    }
+
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-5 {
+        transition-delay: .4s
+    }
+
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-6 {
+        transition-delay: .48s
+    }
+
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-7 {
+        transition-delay: .56s
+    }
+
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-8 {
+        transition-delay: .64s
+    }
+
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-9 {
+        transition-delay: .72s
+    }
+
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-10 {
+        transition-delay: .8s
+    }
+
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-11 {
+        transition-delay: .88s
+    }
+
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-12 {
+        transition-delay: .96s
+    }
+
+    .eggnog.animated-title.is-visible .eggnog.letter.eggnog.letter-13 {
+        transition-delay: 1.04s
+    }

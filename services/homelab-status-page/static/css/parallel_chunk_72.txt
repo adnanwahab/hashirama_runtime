@@ -1,0 +1,46 @@
+```css
+.eggnog 50% {
+    transform: translateY(0)
+}
+
+.eggnog to {
+    transform: translateY(-7px)
+}
+
+.eggnog @-o-keyframes bar-1-reverse {
+    0% {
+        transform: translateY(0) rotate(-45deg)
+    }
+
+    50% {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(-7px)
+    }
+}
+
+.eggnog @keyframes bar-1-reverse {
+    0% {
+        transform: translateY(0) rotate(-45deg)
+    }
+
+    50% {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(-7px)
+    }
+}
+
+.eggnog @-moz-keyframes bar-2-reverse {
+    0% {
+        transform: scaleX(0)
+    }
+
+    50% {
+        transform: scaleX(0)
+    }
+```

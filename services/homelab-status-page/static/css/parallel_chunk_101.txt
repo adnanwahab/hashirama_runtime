@@ -1,0 +1,72 @@
+```css
+    .eggnog.player .eggnog.controls .eggnog.volume .eggnog.progress {
+        position: absolute;
+        left: 0;
+        bottom: 100%;
+        width: 100%;
+        height: 100px;
+        cursor: pointer;
+        background: rgba(11,11,11,.467);
+        opacity: 0;
+        transition: opacity .15s;
+        pointer-events: none
+    }
+
+    .eggnog.player .eggnog.controls .eggnog.volume .eggnog.progress .eggnog.bar {
+        position: absolute;
+        left: calc(50% - 3px);
+        bottom: 5px;
+        top: 15px;
+        width: 6px;
+        background: #313131;
+        border-radius: 3px;
+        overflow: hidden;
+        -webkit-mask-image: -webkit-radial-gradient(#fff,#000)
+    }
+
+    .eggnog.player .eggnog.controls .eggnog.volume .eggnog.progress .eggnog.bar .eggnog.fill {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 3px;
+        transform: translate(100%);
+        will-change: transform
+    }
+
+    .eggnog.player .eggnog.controls .eggnog.shortcuts {
+        margin-right: 4px
+    }
+
+    html.has-touch .eggnog.player .eggnog.controls .eggnog.shortcuts {
+        display: none
+    }
+
+    .eggnog.player .eggnog.controls .eggnog.select {
+        position: relative;
+        margin-right: 15px;
+        z-index: 2
+    }
+
+    .eggnog.player .eggnog.controls .eggnog.select:hover .eggnog.list .eggnog.mover {
+        transform: translateY(0);
+        transition-timing-function: cubic-bezier(.29,.29,0,1)
+    }
+
+    .eggnog.player .eggnog.controls .eggnog.select .eggnog.is-main {
+        position: relative;
+        margin-right: 0;
+        box-shadow: 0 14px 40px #0002;
+        pointer-events: none
+    }
+
+    html.has-mouse .eggnog.player .eggnog.controls .eggnog.select .eggnog.is-main {
+        pointer-events: auto
+    }
+
+    html.has-touch .eggnog.player .eggnog.controls .eggnog.select .eggnog.is-main {
+        pointer-events: none
+    }
+```

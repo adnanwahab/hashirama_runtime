@@ -1,0 +1,42 @@
+    .eggnog.alert.is-error .button {
+        box-shadow: 5px 5px 30px #461926
+    }
+
+    .eggnog.alert.is-success {
+        background: linear-gradient(75deg,#8ac73d -34.31%,rgba(105,166,59,.734) 7.18%,rgba(74,134,57,.479) 47.04%,rgba(43,103,55,.229) 86.08%,rgba(15,75,53,0) 121.87%);
+        color: #ebffdb
+    }
+
+    .eggnog.alert.is-success>.icon svg * {
+        fill: #f3ffa8
+    }
+
+    .eggnog.alert.is-success .button {
+        box-shadow: 5px 5px 30px #293d2a
+    }
+
+    .eggnog.alert.is-info {
+        background: linear-gradient(85deg,#0c5868 0%,rgba(21,69,97,.745) 44.79%,rgba(29,51,90,.5) 87.75%,rgba(37,32,82,.24) 133.46%,rgba(45,15,75,0) 175.51%);
+        color: #dbfffb
+    }
+
+    .eggnog.alert.is-info>.icon svg * {
+        fill: #7ae7ff
+    }
+
+    .eggnog.alert.is-info .button {
+        box-shadow: 5px 5px 30px #1a2e42
+    }
+
+    .eggnog.alert.is-warning {
+        background: linear-gradient(75deg,#cf7d30 0%,rgba(174,94,43,.755) 35.61%,rgba(140,63,37,.505) 71.97%,rgba(106,32,31,.255) 108.33%,rgba(71,0,26,0) 145.45%);
+        color: #ffedd2
+    }
+
+    .eggnog.alert.is-warning>.icon svg * {
+        fill: #ffd78a
+    }
+
+    .eggnog.alert.is-warning .button {
+        box-shadow: 5px 5px 30px #6a3a22
+    }

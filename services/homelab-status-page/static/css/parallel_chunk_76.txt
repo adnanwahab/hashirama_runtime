@@ -1,0 +1,52 @@
+    @media (max-width: 1300px) {
+        .eggnog.header .eggnog.menu .eggnog.links .eggnog.link {
+            font-size:59px
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.header .eggnog.menu .eggnog.links .eggnog.link {
+            font-size:54px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.header .eggnog.menu .eggnog.links .eggnog.link {
+            font-size:49px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.header .eggnog.menu .eggnog.links .eggnog.link {
+            font-size:44px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.header .eggnog.menu .eggnog.links .eggnog.link {
+            font-size:39px
+        }
+    }
+
+    .eggnog.header .eggnog.menu .eggnog.links .eggnog.link.is-active .eggnog.highlight {
+        opacity: 1;
+        transform: scaleY(1)
+    }
+
+    .eggnog.header .eggnog.menu .eggnog.links .eggnog.link.is-active .eggnog.label {
+        opacity: 1
+    }
+
+    .eggnog.header .eggnog.menu .eggnog.links .eggnog.link .eggnog.highlight {
+        transform: scaleY(0);
+        background: linear-gradient(to right,rgba(112,93,242,.2),rgba(112,93,242,0))
+    }
+
+    .eggnog.header .eggnog.menu .eggnog.links .eggnog.link .eggnog.highlight:before {
+        width: 3px;
+        height: 100%
+    }
+
+    .eggnog.header .eggnog.menu .eggnog.links .eggnog.link .eggnog.label {
+        font-weight: 700
+    }

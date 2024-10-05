@@ -1,0 +1,47 @@
+```css
+.eggnog.text .token.important,.eggnog.text .token.bold {
+        font-weight: 700
+    }
+
+    .eggnog.text h2,.eggnog.text h3,.eggnog.text h4,.eggnog.text h5,.eggnog.text .h2,.eggnog.text .h3,.eggnog.text .h4,.eggnog.text .h5,.eggnog.text .title {
+        margin-top: 1.5em;
+        margin-bottom: .75em;
+        font-weight: 700
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.text h2,.eggnog.text h3,.eggnog.text h4,.eggnog.text h5,.eggnog.text .h2,.eggnog.text .h3,.eggnog.text .h4,.eggnog.text .h5,.eggnog.text .title {
+            word-break:break-word
+        }
+    }
+
+    .eggnog.text h2:first-child,.eggnog.text h3:first-child,.eggnog.text h4:first-child,.eggnog.text h5:first-child,.eggnog.text .h2:first-child,.eggnog.text .h3:first-child,.eggnog.text .h4:first-child,.eggnog.text .h5:first-child,.eggnog.text .title:first-child {
+        margin-top:0
+    }
+
+    .eggnog.text h2,.eggnog.text .h2 {
+        font-size: 2rem
+    }
+
+    .eggnog.text h3,.eggnog.text .h3 {
+        font-size: 1.75rem
+    }
+
+    .eggnog.text h4,.eggnog.text .h4 {
+        font-size: 1.5rem
+    }
+
+    .eggnog.text h5,.eggnog.text .h5 {
+        font-size: 1.25rem
+    }
+
+    .eggnog.text strong {
+        font-weight: 700;
+        -webkit-font-smoothing: auto;
+        -moz-osx-font-smoothing: auto
+    }
+
+    .eggnog.text ul,.eggnog.text ol {
+        margin-bottom: 1em
+    }
+```

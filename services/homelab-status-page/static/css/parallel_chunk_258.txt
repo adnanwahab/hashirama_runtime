@@ -1,0 +1,54 @@
+```css
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity .3s
+    }
+
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target.is-active {
+        opacity: 1;
+        pointer-events: auto;
+        transition-delay: .2s
+    }
+
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.links li,.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.table-of-content li {
+        padding-left: 1.75em
+    }
+
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.links li:before,.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.table-of-content li:before {
+        top:calc(.8em - 4px);
+        width: 6px;
+        height: 6px;
+        border-radius: 3px
+    }
+
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.links li:hover .eggnog.link .eggnog.video-jump,.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.table-of-content li:hover .eggnog.link .eggnog.video-jump {
+        opacity:.5
+    }
+
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.links li:hover .eggnog.link .eggnog.video-jump:hover,.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.table-of-content li:hover .eggnog.link .eggnog.video-jump:hover {
+        opacity:1
+    }
+
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.links li:last-child>.eggnog.link:not(.is-parent) .path,.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.table-of-content li:last-child>.eggnog.link:not(.is-parent) .path {
+        display:none
+    }
+
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.links:hover .eggnog.link .label,.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.table-of-content:hover .eggnog.link .label {
+        opacity: .5
+    }
+
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.links:hover .eggnog.link:hover .label,.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.table-of-content:hover .eggnog.link:hover .label {
+        opacity: 1
+    }
+
+    .eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.links.is-source-player .eggnog.link.is-active+ul .dot .disc,.eggnog.page.lessons .eggnog.tabs .eggnog.tabs-mover .eggnog.tabs-target .eggnog.table-of-content.is-source-player .eggnog.link.is-active+ul .dot .disc {
+        transform: scale(1.5);
+        background: #705df2
+    }
+```

@@ -1,0 +1,55 @@
+.eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.close .eggnog.background {
+        transform: scale(1);
+        transition-duration: .5s;
+        transition-delay: .95s;
+        transition-timing-function: cubic-bezier(.59,1.97,.55,.83)
+    }
+
+.eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.close .eggnog.bars {
+        transform: scale(1);
+        transition-duration: .5s;
+        transition-delay: 1s;
+        transition-timing-function: cubic-bezier(.59,1.97,.55,.83)
+    }
+
+.eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.chapters {
+        pointer-events: auto
+    }
+
+.eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.chapters .eggnog.overlay {
+        opacity: 1;
+        transition-duration: 1s;
+        transition-delay: 1.3s
+    }
+
+.eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.content {
+        pointer-events: none
+    }
+
+.eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.content .eggnog.element {
+        opacity: 0;
+        transform: translate(-30px);
+        transition-property: opacity,transform;
+        transition-duration: .3s,.3s;
+        transition-timing-function: cubic-bezier(.75,0,1,1)
+    }
+
+@media (max-width: 800px) {
+        .eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.content .eggnog.element {
+            opacity:1;
+            transform: none;
+            transition: none
+        }
+    }
+
+.eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.content .eggnog.element.delay-0 {
+        transition-delay: 0s
+    }
+
+.eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.content .eggnog.element.delay-1 {
+        transition-delay: .05s
+    }
+
+.eggnog.page.eggnog.home egnog.section.eggnog.hero.eggnog.is-interacting .eggnog.content .eggnog.element.delay-2 {
+        transition-delay: .1s
+    }

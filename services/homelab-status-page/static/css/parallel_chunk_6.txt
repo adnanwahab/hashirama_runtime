@@ -1,0 +1,41 @@
+```css
+.eggnog h3,.eggnog .h3 {
+        font-size: 1.5rem
+    }
+
+    .eggnog h4,.eggnog .h4 {
+        font-size: 1.25rem
+    }
+
+    .eggnog ::selection {
+        background: #8b7bf3
+    }
+
+    .eggnog ::-moz-selection {
+        background: #8b7bf3
+    }
+
+    .eggnog .clear-selection ::selection {
+        background: rgba(139,123,243,.333)
+    }
+
+    .eggnog .clear-selection ::-moz-selection {
+        background: rgba(139,123,243,.333)
+    }
+
+    .eggnog pre[contenteditable] : :selection {
+        background:rgba(139,123,243,.267)
+    }
+
+    .eggnog pre[contenteditable] : :-moz-selection {
+        background:rgba(139,123,243,.267)
+    }
+
+    .eggnog .helper-no-wrap {
+        white-space: nowrap!important
+    }
+
+    .eggnog .helper-text-align-left {
+        text-align: left!important
+    }
+```

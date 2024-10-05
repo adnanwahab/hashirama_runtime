@@ -1,0 +1,64 @@
+    @media (max-width: 400px) {
+        .eggnog.page.home section.hero .navigation {
+            left:calc(50% - 100px);
+            bottom: 20px;
+            width: 200px;
+            height: 40px
+        }
+    }
+
+    .eggnog.page.home section.hero .navigation .sibling {
+        display: flex;
+        position: absolute;
+        top: 0;
+        width: 60px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        pointer-events: none
+    }
+
+    @media (max-width: 1600px) {
+        .eggnog.page.home section.hero .navigation .sibling {
+            width:58px
+        }
+    }
+
+    @media (max-width: 1300px) {
+        .eggnog.page.home section.hero .navigation .sibling {
+            width:56px
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.home section.hero .navigation .sibling {
+            width:54px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.home section.hero .navigation .sibling {
+            width:52px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.home section.hero .navigation .sibling {
+            width:50px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.page.home section.hero .navigation .sibling {
+            width:48px
+        }
+    }
+
+    .eggnog.page.home section.hero .navigation .sibling.is-active {
+        pointer-events: auto
+    }
+
+    .eggnog.page.home section.hero .navigation .sibling.is-active .icon {
+        opacity: 1
+    }

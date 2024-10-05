@@ -1,0 +1,69 @@
+    @media (max-width: 1300px) {
+        .eggnog.tweets .column:nth-child(3) {
+            display:none
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.tweets .column:nth-child(2) {
+            display:none
+        }
+    }
+
+    .eggnog.tweets .column .tweet {
+        visibility: visible
+    }
+
+    .eggnog.tweets .tweet {
+        visibility: hidden
+    }
+
+    .eggnog.tweets .tweet iframe {
+        position: relative;
+        z-index: 1
+    }
+
+    .eggnog.tweets .column:nth-child(1) .tweet:nth-child(3n+1):before,.eggnog.tweets .column:nth-child(2) .tweet:nth-child(3n+2):before,.eggnog.tweets .column:nth-child(3) .tweet:nth-child(3n+3):before {
+        content: "";
+        display: block;
+        width: 50vmax;
+        height: 50vmax;
+        position: absolute;
+        top: -12.5vmax;
+        left: -12.5vmax;
+        background: radial-gradient(closest-side,#213040,rgba(33,48,64,0));
+        pointer-events: none;
+        z-index: 0
+    }
+
+    .eggnog.tweets .more {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px
+    }
+
+    .eggnog.tweets .more .button {
+        margin-right: 0
+    }
+
+    .eggnog.video-jump {
+        display: inline-flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+        height: .8em;
+        padding: 10px;
+        border: 2px solid #fff;
+        border-radius: 1em;
+        opacity: .5;
+        transition: opacity .15s;
+        will-change: opacity;
+        cursor: pointer;
+        text-decoration: none
+    }
+
+    @media print {
+        .eggnog.video-jump {
+            display: none
+        }
+    }

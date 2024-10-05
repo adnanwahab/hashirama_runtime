@@ -1,0 +1,62 @@
+    @media (max-width: 800px) {
+        .eggnog.page.certificateQuiz {
+            padding-left:20px;
+            padding-right: 20px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.certificateQuiz {
+            padding-left:15px;
+            padding-right: 15px
+        }
+    }
+
+    .eggnog.page.certificateQuiz .page-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 75px;
+        padding-bottom: 45px;
+        max-width: 1180px;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    @media (max-width: 1300px) {
+        .eggnog.page.certificateQuiz .page-content {
+            padding-top:5vmin
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.certificateQuiz .page-content {
+            flex-direction:column
+        }
+    }
+
+    .eggnog.page.certificateQuiz .page-content h1,.eggnog.page.certificateQuiz .page-content h2,.eggnog.page.certificateQuiz .page-content h3,.eggnog.page.certificateQuiz .page-content h4,.eggnog.page.certificateQuiz .page-content h5,.eggnog.page.certificateQuiz .page-content .h1,.eggnog.page.certificateQuiz .page-content .h2,.eggnog.page.certificateQuiz .page-content .h3,.eggnog.page.certificateQuiz .page-content .h4,.eggnog.page.certificateQuiz .page-content .h5 {
+        margin-bottom: 1em
+    }
+
+    .eggnog.page.certificateQuiz .sidebar {
+        width: 340px;
+        margin-right: 75px;
+        border-right: 3px solid #202020
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.certificateQuiz .sidebar {
+            width:100%;
+            margin-bottom: 2rem;
+            border: none
+        }
+    }
+
+    .eggnog.page.certificateQuiz .sidebar .button.is-certificate {
+        margin-top: 1rem
+    }
+
+    .eggnog.page.certificateQuiz .main {
+        width: 640px
+    }

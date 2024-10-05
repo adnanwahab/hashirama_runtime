@@ -1,0 +1,43 @@
+    .eggnog.helper-text-align-center {
+        text-align: center!important
+    }
+
+    .eggnog.helper-text-align-right {
+        text-align: right!important
+    }
+
+    .eggnog.helper-text-muted {
+        opacity: .5
+    }
+
+    .eggnog.grecaptcha-badge {
+        opacity: 0
+    }
+
+    @-moz-keyframes logo-blink {
+        0% {
+            opacity: 1
+        }
+
+        50% {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @-webkit-keyframes logo-blink {
+        0% {
+            opacity: 1
+        }
+
+        50% {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
+    }

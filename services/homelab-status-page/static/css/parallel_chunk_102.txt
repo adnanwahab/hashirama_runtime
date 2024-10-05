@@ -1,0 +1,77 @@
+```css
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.is-main .eggnog.label.eggnog.is-placeholder {
+    margin-right: 26px;
+    visibility: hidden
+}
+
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.is-main .eggnog.label.eggnog.is-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    line-height: 24px
+}
+
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.is-main .eggnog.arrow {
+    display: block;
+    position: absolute;
+    top: calc(50% - 2px);
+    right: 10px;
+    width: 8px;
+    height: 5px;
+    transform: rotate(180deg)
+}
+
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.is-main .eggnog.arrow svg {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.is-main .eggnog.arrow svg * {
+    fill: #fff
+}
+
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.list {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    min-width: 100%;
+    overflow: hidden;
+    pointer-events: none
+}
+
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.list .eggnog.mover {
+    padding-top: 5px;
+    border-radius: 4px;
+    background: #1f1f1f;
+    transform: translateY(100%);
+    transition: transform .6s cubic-bezier(.75,0,.25,1);
+    will-change: transform
+}
+
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.list .eggnog.link {
+    position: relative;
+    display: inline-flex;
+    height: 25px;
+    line-height: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: Greycliff,sans-serif;
+    font-weight: 700;
+    font-size: .6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-mask-image: -webkit-radial-gradient(#fff,#000);
+    opacity: .75
+}
+
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.list .eggnog.link.eggnog.is-active {
+    color: #705df2;
+    opacity: 1
+}
+
+.eggnog.player .eggnog.controls .eggnog.select .eggnog.list .eggnog.link:hover {
+    opacity: 1
+}
+```

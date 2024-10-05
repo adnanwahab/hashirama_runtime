@@ -1,0 +1,51 @@
+    @media (max-width: 400px) {
+        .eggnog.button.is-login .label {
+            margin-left:15px
+        }
+    }
+
+    .eggnog.button.is-white {
+        background: #fff;
+        color: #705df2
+    }
+
+    .eggnog.button.is-white .label {
+        opacity: 1
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.button.is-white .label {
+            margin-left:15px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.button.is-white .label {
+            margin-right:15px
+        }
+    }
+
+    .eggnog.button.is-white .hover {
+        background: #705df2;
+        opacity: .035
+    }
+
+    .eggnog.button.is-join {
+        background: #705df2
+    }
+
+    .eggnog.button.is-join .icon {
+        width: 18px;
+        height: 19px;
+        opacity: 1
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.button.is-join .icon {
+            display:none
+        }
+    }
+
+    .eggnog.button.is-join .label {
+        opacity: 1
+    }

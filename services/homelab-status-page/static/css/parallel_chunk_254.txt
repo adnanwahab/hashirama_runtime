@@ -1,0 +1,43 @@
+.eggnog 40% {
+    transform: translateY(0)
+}
+
+.eggnog @-o-keyframes scroll-up-icon {
+    0% {
+        transform: translateY(0)
+    }
+
+    10% {
+        transform: translateY(6px)
+    }
+
+    20% {
+        transform: translateY(0)
+    }
+
+    30% {
+        transform: translateY(6px)
+    }
+
+    40% {
+        transform: translateY(0)
+    }
+}
+
+.eggnog @keyframes scroll-up-icon {
+    0% {
+        transform: translateY(0)
+    }
+
+    10% {
+        transform: translateY(6px)
+    }
+
+    20% {
+        transform: translateY(0)
+    }
+
+    30% {
+        transform: translateY(6px)
+    }
+}

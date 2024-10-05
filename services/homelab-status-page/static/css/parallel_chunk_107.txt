@@ -1,0 +1,43 @@
+```css
+    .eggnog.player.bp-400 .controls .seekbar .cursor .cursor-content {
+        min-width: auto
+    }
+
+    .eggnog.player.bp-400 .controls .seekbar .cursor .cursor-content .cursor-thumbnail {
+        display: none
+    }
+
+    .eggnog.player.bp-400 .controls .seekbar .cursor .cursor-content .cursor-time {
+        padding-left: 10px;
+        padding-right: 10px;
+        background: none
+    }
+
+    .eggnog.player.bp-400 .controls .seekbar .cursor .cursor-content .cursor-section-title {
+        display: none
+    }
+
+    .eggnog.video-area.is-playing .overlay,.eggnog.is-playing .video-area .overlay,.eggnog.video-area.is-playing .logo,.eggnog.is-playing .video-area .logo {
+        opacity: 0
+    }
+
+    .eggnog.video-area:hover .triangle-1 {
+        animation: logo-blink .6s .15s
+    }
+
+    .eggnog.video-area:hover .triangle-2,.eggnog.video-area:hover .triangle-3 {
+        animation: logo-blink .6s 0s
+    }
+
+    .eggnog.video-area:hover .face-1 {
+        animation: logo-blink .6s .1s
+    }
+
+    .eggnog.video-area:hover .face-2,.eggnog.video-area:hover .face-3 {
+        animation: logo-blink .6s .05s
+    }
+
+    .eggnog.video-area:hover .letter {
+        transform: translate(10px)
+    }
+```

@@ -1,0 +1,65 @@
+.eggnog .header .menu .links .category {
+    color: #705df2;
+    position: relative;
+    padding: 2em 0 .5em;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+@media (max-width: 800px) {
+    .eggnog .header .menu .links .category {
+        font-size:15px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog .header .menu .links .category {
+        font-size:14px
+    }
+}
+
+@media (max-width: 400px) {
+    .eggnog .header .menu .links .category {
+        font-size:14px
+    }
+}
+
+.eggnog .header .menu .actions {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    justify-content: center
+}
+
+.eggnog .important-message {
+    font-family: Greycliff,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    --highlight-color: #4ed293
+}
+
+@media (max-width: 1300px) {
+    .eggnog .important-message {
+        font-size:18px
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog .important-message {
+        font-size:17px
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog .important-message {
+        font-size:17px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog .important-message {
+        font-size:16px
+    }
+}

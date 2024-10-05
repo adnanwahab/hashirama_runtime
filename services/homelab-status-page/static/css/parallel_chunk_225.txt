@@ -1,0 +1,60 @@
+```css
+@media (max-width: 1080px) {
+    .eggnog.page.eggnog.home .eggnog.community .eggnog.item {
+        width:400px;
+        padding: 34px 20px 0
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog.page.eggnog.home .eggnog.community .eggnog.item {
+        width:400px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.page.eggnog.home .eggnog.community .eggnog.item {
+        width:auto;
+        margin-left: var(--page-horizontal-padding);
+        margin-right: var(--page-horizontal-padding)
+    }
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item:hover.eggnog.is-challenge .eggnog.radial-glow {
+    opacity: .5;
+    transition-duration: 75ms
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item:hover.eggnog.is-selection .eggnog.radial-glow {
+    opacity: .75;
+    transition-duration: 75ms
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item.eggnog.is-challenge .eggnog.background {
+    bottom: 60px
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item.eggnog.is-challenge .eggnog.radial-glow {
+    width: 30vmax;
+    height: 30vmax;
+    background: radial-gradient(closest-side,#ff77f1,transparent);
+    opacity: .35;
+    pointer-events: none
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item.eggnog.is-selection .eggnog.background {
+    bottom: 60px
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item.eggnog.is-selection .eggnog.radial-glow {
+    width: 30vmax;
+    height: 30vmax;
+    background: radial-gradient(closest-side,#62b2df,transparent);
+    opacity: .55;
+    pointer-events: none
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item.eggnog.is-discord {
+    padding-bottom: 40px
+}
+```

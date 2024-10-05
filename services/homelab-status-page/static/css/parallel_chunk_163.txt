@@ -1,0 +1,51 @@
+```
+.eggnog.page.discord .leaderboard .users .user:nth-child(2) {
+    color: #ffcd52
+}
+
+.eggnog.page.discord .leaderboard .users .rank {
+    width: 10%;
+    justify-content: center
+}
+
+.eggnog.page.discord .leaderboard .users .rank.has-medal {
+    font-size: 1.5rem
+}
+
+.eggnog.page.discord .leaderboard .users .name {
+    width: 40%;
+    justify-content: flex-start;
+    text-align: left
+}
+
+.eggnog.page.discord .leaderboard .users .name .avatar {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    font-size: .8em;
+    border-radius: 6px
+}
+
+.eggnog.page.discord .leaderboard .users .messages {
+    width: 20%;
+    justify-content: center
+}
+
+.eggnog.page.discord .leaderboard .users .xp,.eggnog.page.discord .leaderboard .users .level {
+    width: 15%;
+    justify-content: center
+}
+
+.eggnog.page.discord .leaderboard .users .bottom {
+    padding: 8px 0 16px
+}
+
+.eggnog.page.discord .leaderboard .users .bottom a {
+    opacity: .5
+}
+
+.eggnog.page.discord .leaderboard .users .bottom a: hover {
+    opacity:.8
+}
+```

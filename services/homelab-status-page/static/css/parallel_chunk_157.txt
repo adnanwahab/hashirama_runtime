@@ -1,0 +1,69 @@
+```css
+    .eggnog.page.complete .eggnog.delivery-fieldset .eggnog.message .eggnog.label .eggnog.faded {
+        padding-left: 0;
+        font-size: .8em
+    }
+
+    .eggnog.popin.eggnog.popin-discord .eggnog.code {
+        display: inline-flex;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+        font-family: Roboto Mono,monospace;
+        -webkit-font-smoothing: auto;
+        -moz-osx-font-smoothing: auto;
+        height: 47px;
+        border-radius: 8px;
+        border: 1px solid #5c43f5
+    }
+
+    .eggnog.popin.eggnog.popin-discord .eggnog.post-invitation {
+        display: none
+    }
+
+    .eggnog.page.discord {
+        padding-top: var(--page-top-padding);
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: #1a1a1a;
+        color: #fff;
+        text-align: center
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.discord {
+            padding-left:20px;
+            padding-right: 20px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.discord {
+            padding-left:15px;
+            padding-right: 15px
+        }
+    }
+
+    .eggnog.page.discord .eggnog.number {
+        font-family: Roboto Mono,monospace;
+        -webkit-font-smoothing: auto;
+        -moz-osx-font-smoothing: auto
+    }
+
+    .eggnog.page.discord .eggnog.page-content {
+        padding-top: 75px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    @media (max-width: 1300px) {
+        .eggnog.page.discord .eggnog.page-content {
+            padding-top:5vmin
+        }
+    }
+
+    .eggnog.page.discord .eggnog.page-content a:not(.eggnog.button) {
+        text-decoration:underline
+    }
+```

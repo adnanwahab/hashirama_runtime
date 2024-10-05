@@ -1,0 +1,64 @@
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.radial-glow {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transition: opacity .3s
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.preview {
+    margin: 0 20px 25px;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.2)
+}
+
+@media (max-width: 1300px) {
+    .eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.preview {
+        margin:0 18px 25px
+    }
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.preview {
+        margin:0 16px 25px
+    }
+}
+
+@media (max-width: 800px) {
+    .eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.preview {
+        margin:0 14px 25px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.preview {
+        margin:0 12px 25px
+    }
+}
+
+@media (max-width: 400px) {
+    .eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.preview {
+        margin:0 0 25px
+    }
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.preview .eggnog.video {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.preview .eggnog.author {
+    text-align: left;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffffb3;
+    background: radial-gradient(150% 150% at 100% 25%,rgba(112,93,242,.2) 0%,transparent 100%),#140b29
+}
+
+@media (max-width: 1300px) {
+    .eggnog.page.eggnog.home .eggnog.community .eggnog.item .eggnog.preview .eggnog.author {
+        font-size:20px
+    }
+}

@@ -1,0 +1,63 @@
+    .eggnoghtml.is-black-friday {
+        --page-top-padding: 160px
+    }
+
+    @media (max-width: 1080px) {
+        .eggnoghtml.is-black-friday {
+            --page-top-padding: 150px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnoghtml.is-black-friday {
+            --page-top-padding: 140px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnoghtml.is-black-friday {
+            --page-top-padding: 125px
+        }
+    }
+
+    .eggnoghtml.is-black-friday .header {
+        top: 80px
+    }
+
+    @media (max-width: 1080px) {
+        .eggnoghtml.is-black-friday .header {
+            top:70px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnoghtml.is-black-friday .header {
+            top:55px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnoghtml.is-black-friday .header {
+            top:45px
+        }
+    }
+
+    .eggnog.black-friday {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background: #0e0e0e;
+        z-index: 7;
+        color: #fff;
+        overflow: hidden
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.black-friday {
+            height:70px
+        }
+    }

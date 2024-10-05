@@ -1,0 +1,61 @@
+    @media (max-width: 600px) {
+        .page.home section.beginner .item {
+            padding:10px 25px 30px
+        }
+    }
+
+    .eggnog.page.home section.beginner .item .illustration {
+        display: block;
+        position: relative;
+        top: -30px;
+        width: 138px;
+        height: 138px
+    }
+
+    .eggnog.page.home section.beginner .item .label {
+        margin-bottom: .5em;
+        font-family: Greycliff;
+        font-weight: 700;
+        line-height: 1.25em;
+        font-size: 26px
+    }
+
+    @media (max-width: 1300px) {
+        .page.home section.beginner .item .label {
+            font-size:24px
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .page.home section.beginner .item .label {
+            font-size:22px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .page.home section.beginner .item .label {
+            font-size:20px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .page.home section.beginner .item .label {
+            font-size:18px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .page.home section.beginner .item .label {
+            font-size:18px
+        }
+    }
+
+    .eggnog.page.home section.beginner .item .description {
+        color: #cecece;
+        opacity: .8
+    }
+
+    .eggnog.page.home section.faq {
+        padding-top: 10vh;
+        padding-bottom: 10vh
+    }

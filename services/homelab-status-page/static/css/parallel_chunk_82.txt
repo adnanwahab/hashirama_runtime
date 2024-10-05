@@ -1,0 +1,41 @@
+```css
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(6),.eggnog .main-logo:hover.is-dark .letter:nth-child(6) {
+        transition-delay: .06s
+    }
+
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(7),.eggnog .main-logo:hover.is-dark .letter:nth-child(7) {
+        transition-delay: .07s
+    }
+
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(8),.eggnog .main-logo:hover.is-dark .letter:nth-child(8) {
+        transition-delay: .08s
+    }
+
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(9),.eggnog .main-logo:hover.is-dark .letter:nth-child(9) {
+        transition-delay: .09s
+    }
+
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(10),.eggnog .main-logo:hover.is-dark .letter:nth-child(10) {
+        transition-delay: .1s
+    }
+
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(11),.eggnog .main-logo:hover.is-dark .letter:nth-child(11) {
+        transition-delay: .11s
+    }
+
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(12),.eggnog .main-logo:hover.is-dark .letter:nth-child(12) {
+        transition-delay: .12s
+    }
+
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(13),.eggnog .main-logo:hover.is-dark .letter:nth-child(13) {
+        transition-delay: .13s
+    }
+
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(14),.eggnog .main-logo:hover.is-dark .letter:nth-child(14) {
+        transition-delay: .14s
+    }
+
+    .eggnog .main-logo:hover.is-abyss .letter:nth-child(15),.eggnog .main-logo:hover.is-dark .letter:nth-child(15) {
+        transition-delay: .15s
+    }
+```

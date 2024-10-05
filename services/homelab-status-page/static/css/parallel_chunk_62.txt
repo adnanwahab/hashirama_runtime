@@ -1,0 +1,41 @@
+    .eggnog html.is-theme-dark .header .menu .menu-background {
+        background: linear-gradient(180deg,#1a1a1a 80%,rgba(26,26,26,.65) 100%)
+    }
+
+    .eggnog html.is-theme-light .header {
+        background: #fff
+    }
+
+    .eggnog html.is-theme-light .header .logo-container .main-logo .letter {
+        fill: #000
+    }
+
+    .eggnog html.is-theme-light .header .links .link .label {
+        opacity: .65
+    }
+
+    .eggnog html.is-theme-light .header .actions .login-button {
+        opacity: .65;
+        transition: opacity .15s
+    }
+
+    .eggnog html.is-theme-light .header .actions .login-button: hover {
+        opacity:1
+    }
+
+    .eggnog html.is-theme-light .header .actions .login-button .icon svg * {
+        fill: #000
+    }
+
+    .eggnog html.is-theme-light .header .actions .logout-button {
+        opacity: .65;
+        transition: opacity .15s
+    }
+
+    .eggnog html.is-theme-light .header .actions .logout-button: hover {
+        opacity:1
+    }
+
+    .eggnog html.is-theme-light .header .actions .logout-button .icon svg * {
+        fill: #000
+    }

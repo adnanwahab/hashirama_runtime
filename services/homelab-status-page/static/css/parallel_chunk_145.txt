@@ -1,0 +1,80 @@
+```css
+    .eggnog.page.challenges .eggnog.results .eggnog.winner.is-rank-2 .eggnog.details,.eggnog.page.challenges .eggnog.results .eggnog.winner.is-rank-3 .eggnog.details {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .eggnog.page.challenges .eggnog.results .eggnog.winner.is-rank-2 .eggnog.rank {
+        background: linear-gradient(226deg,rgba(6,148,185,.2) 0%,rgba(17,31,52,.2) 100%),#271945;
+        box-shadow: 0 0 80px #5da2f24d
+    }
+
+    .eggnog.page.challenges .eggnog.results .eggnog.winner.is-rank-2 .eggnog.rank .eggnog.position {
+        background: linear-gradient(180deg,#fff 0%,#adebff 48.96%,#7981ca 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent
+    }
+
+    .eggnog.page.challenges .eggnog.results .eggnog.winner.is-rank-3 .eggnog.rank {
+        left: 100%;
+        border-radius: 0 14px 14px 0;
+        border: 1px solid rgba(255,255,255,.2);
+        border-left: none;
+        background: linear-gradient(226deg,rgba(199,100,73,.2) 0%,rgba(88,21,105,.2) 100%),#271945;
+        box-shadow: 0 0 80px #705df24d
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.challenges .eggnog.results .eggnog.winner.is-rank-3 .eggnog.rank {
+            left:auto;
+            right: 100%;
+            border-radius: 14px 0 0 14px;
+            border: 1px solid rgba(255,255,255,.2);
+            border-right: none
+        }
+    }
+
+    .eggnog.page.challenges .eggnog.results .eggnog.winner.is-rank-3 .eggnog.rank .eggnog.position {
+        background: linear-gradient(180deg,#ffe3b8 0%,#7f559f 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent
+    }
+
+    .eggnog.page.challenges .eggnog.results .eggnog.winner .eggnog.visual {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 14px;
+        box-shadow: #ff77f133 0 0 80px;
+        flex-shrink: 0
+    }
+
+    .eggnog.page.challenges .eggnog.results .eggnog.winner .eggnog.visual .eggnog.ratio-holder {
+        width: 100%;
+        padding-top: 56.25%
+    }
+
+    .eggnog.page.challenges .eggnog.results .eggnog.winner .eggnog.visual iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+    }
+
+    .eggnog.page.challenges .eggnog.results .eggnog.winner .eggnog.rank {
+        position: absolute;
+        top: 25px;
+        right: 100%;
+        border-radius: 14px 0 0 14px;
+        border: 1px solid rgba(255,255,255,.2);
+        border-right: none;
+        background: linear-gradient(226deg,rgba(255,140,56,.2) 0%,rgba(88,21,105,.2) 100%),#271945;
+        padding: 10px 0;
+        width: 108px;
+        text-align: center;
+        box-shadow: 0 0 80px #f25d934d
+    }
+```

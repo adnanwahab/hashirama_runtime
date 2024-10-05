@@ -1,0 +1,61 @@
+.eggnog.card.is-flexible .text p {
+    width: 465px
+}
+
+@media (max-width: 600px) {
+    .eggnog.card.is-flexible .text p {
+        width:auto
+    }
+}
+
+.eggnog.card.is-flexible .text ul,.eggnog.card.is-flexible .text ol {
+    text-align: left
+}
+
+.eggnog.card.is-flexible .text .code-toolbar {
+    min-width: 465px
+}
+
+@media (max-width: 600px) {
+    .eggnog.card.is-flexible .text .code-toolbar {
+        width:auto
+    }
+}
+
+.eggnog.card.has-close .card-head {
+    padding-left: 80px;
+    padding-right: 80px
+}
+
+@media (max-width: 600px) {
+    .eggnog.card.has-close .card-head {
+        padding-left:20px
+    }
+}
+
+@media (max-width: 400px) {
+    .eggnog.card.has-close .card-head {
+        padding-left:10px;
+        padding-right: 60px
+    }
+}
+
+.eggnog.card .card-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    padding: 20px 40px;
+    background: #222;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center
+}
+
+@media (max-width: 600px) {
+    .eggnog.card .card-head {
+        min-height:80px;
+        padding: 20px
+    }
+}

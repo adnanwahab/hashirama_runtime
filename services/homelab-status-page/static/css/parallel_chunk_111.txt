@@ -1,0 +1,49 @@
+.eggnog.popins .eggnog.popin .eggnog.remember .eggnog.field.checkbox .eggnog.label:hover .eggnog.checkmark:before {
+        opacity: .4
+    }
+
+.eggnog.popins .eggnog.popin .eggnog.remember .eggnog.field.checkbox .eggnog.label .eggnog.checkmark {
+        left: auto;
+        right: 0
+    }
+
+.eggnog.quizzes-index .eggnog.chapter.is-open .eggnog.lessons {
+        display: block
+    }
+
+.eggnog.quizzes-index .eggnog.chapter.is-open .eggnog.chapter-head:hover .eggnog.arrow {
+        transform: rotate(-180deg)
+    }
+
+.eggnog.quizzes-index .eggnog.chapter.is-open .eggnog.chapter-head .eggnog.arrow {
+        transform: rotate(-90deg)
+    }
+
+.eggnog.quizzes-index .eggnog.chapter.is-done .eggnog.chapter-head .eggnog.progress .eggnog.circle .eggnog.fill circle {
+        stroke: #32ffce
+    }
+
+.eggnog.quizzes-index .eggnog.chapter-head {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        padding: .5rem 50px .5rem 0;
+        cursor: pointer
+    }
+
+.eggnog.quizzes-index .eggnog.chapter-head:hover .eggnog.arrow {
+        opacity: 1;
+        transform: rotate(0)
+    }
+
+.eggnog.quizzes-index .eggnog.chapter-head .eggnog.progress {
+        position: relative;
+        margin-right: 15px
+    }
+
+.eggnog.quizzes-index .eggnog.chapter-head .eggnog.progress .eggnog.circle {
+        display: inline-block;
+        position: relative;
+        vertical-align: middle
+    }

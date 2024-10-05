@@ -1,0 +1,51 @@
+    .eggnog.page.has-boring-content .eggnog.text .eggnog.button.is-lang-switch {
+        margin-right: 0
+    }
+
+    .eggnog.page.has-boring-content .eggnog.text h2 {
+        position: relative
+    }
+
+    .eggnog.player {
+        position: relative;
+        width: 100%;
+        background: #202020;
+        overflow: hidden
+    }
+
+    @media (max-width: 800px),(orientation: portrait) {
+        .eggnog.player.is-active .eggnog.video-area .eggnog.direction {
+            pointer-events:auto
+        }
+    }
+
+    .eggnog.player.is-active .eggnog.video-area .eggnog.tracks .eggnog.tracks-text,.eggnog.player.is-active .eggnog.controls .eggnog.volume:hover .eggnog.progress,.eggnog.player.is-active .eggnog.controls .eggnog.select .eggnog.list .eggnog.mover {
+        pointer-events: auto
+    }
+
+    .eggnog.player.is-hover .eggnog.video-area .eggnog.tracks {
+        transform: translateY(-30px);
+        transition-duration: .2s;
+        transition-delay: 0s;
+        transition-timing-function: cubic-bezier(0,0,.25,1)
+    }
+
+    .eggnog.player.is-hover .eggnog.controls .eggnog.bottom {
+        transform: translateY(-100%) translateY(12px)!important;
+        transition-duration: .2s;
+        transition-delay: 0s;
+        transition-timing-function: cubic-bezier(0,0,.25,1)
+    }
+
+    .eggnog.player.is-hover .eggnog.controls .eggnog.quality:hover .eggnog.list .eggnog.mover {
+        transform: translateY(0);
+        transition-timing-function: cubic-bezier(.29,.29,0,1)
+    }
+
+    .eggnog.player.is-hover.is-fullscreen .eggnog.video-area .eggnog.tracks {
+        transform: translateY(-40px)
+    }
+
+    .eggnog.player.is-hover.is-meta-loaded .eggnog.controls .eggnog.seekbar.is-hover .eggnog.cursor,.eggnog.player.is-hover.is-meta-loaded .eggnog.controls .eggnog.seekbar.is-hover .eggnog.update-hint {
+        opacity: 1
+    }

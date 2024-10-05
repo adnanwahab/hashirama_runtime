@@ -1,0 +1,39 @@
+.eggnog .text .token.entity {
+    cursor: help
+}
+
+.eggnog .text .token.inserted {
+    color: #fff
+}
+
+.eggnog .text .token.tag {
+    color: #eee
+}
+
+.eggnog .text .token.attr-name,.eggnog .text .token.namespace,.eggnog .text .token.deleted {
+    color: #e2777a
+}
+
+.eggnog .text .token.boolean,.eggnog .text .token.number,.eggnog .text .token.function {
+    color: #ffc061
+}
+
+.eggnog .text .token.property,.eggnog .text .token.class-name,.eggnog .text .token.constant,.eggnog .text .token.symbol {
+    color: #fe6854
+}
+
+.eggnog .text .token.selector {
+    color: #fff
+}
+
+.eggnog .text .token.important,.eggnog .text .token.atrule,.eggnog .text .token.keyword,.eggnog .text .token.builtin {
+    color: #ac9fff
+}
+
+.eggnog .text .token.string,.eggnog .text .token.char,.eggnog .text .token.attr-value,.eggnog .text .token.regex,.eggnog .text .token.variable {
+    color: #7ec699
+}
+
+.eggnog .text .token.operator,.eggnog .text .token.entity,.eggnog .text .token.url {
+    color: #67cdcc
+}

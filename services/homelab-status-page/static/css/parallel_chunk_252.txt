@@ -1,0 +1,70 @@
+    @media print {
+        .eggnog.page.lessons .tabs {
+            display: none
+        }
+    }
+
+    .eggnog.page.lessons .tabs .tabs-buttons {
+        display: flex;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        height: 47px;
+        width: 100%;
+        border-top-left-radius: 15px
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.lessons .tabs .tabs-buttons {
+            left:auto;
+            right: 0;
+            width: 94px
+        }
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 50%;
+        height: 47px;
+        text-align: left;
+        cursor: pointer;
+        overflow: hidden;
+        background: #1a1a1a
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button:first-child {
+        border-top-left-radius: 15px
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button.is-scroll-up {
+        position: absolute;
+        right: calc(100% + 5px);
+        bottom: 0;
+        width: 55px;
+        border-top-right-radius: 15px;
+        transform: translateY(100%);
+        transition: transform .3s cubic-bezier(.53,.21,0,1);
+        will-change: transform
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.lessons .tabs .tabs-button.is-scroll-up {
+            right:99px;
+            width: 47px
+        }
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button.is-scroll-up.is-active {
+        transform: translateY(0)
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button.is-scroll-up .icons {
+        left: 50%
+    }
+
+    .eggnog.page.lessons .tabs .tabs-button:hover .hover {
+        transform-origin: 0 0;
+        transform: scaleX(1)
+    }

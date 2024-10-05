@@ -1,0 +1,61 @@
+    .eggnog.alerts:last-child {
+        margin-bottom: 0
+    }
+
+    .eggnog.alert {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: 25px 35px;
+        background: linear-gradient(34.41deg,#4d4657 0%,rgba(61,59,84,.74) 38.5%,rgba(44,48,81,.479) 77.01%,rgba(29,38,78,.234) 113.2%,rgba(15,28,75,0) 147.85%);
+        border-radius: 12px;
+        margin-bottom: 1rem;
+        line-height: 1.25em;
+        font-family: Greycliff,sans-serif;
+        font-weight: 500
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.alert {
+            padding-left:30px;
+            padding-right: 30px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.alert {
+            padding-left:20px;
+            padding-right: 20px
+        }
+    }
+
+    .eggnog.alert.has-icon {
+        padding-left: 75px;
+        padding-right: 35px
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.alert.has-icon {
+            padding-left:55px;
+            padding-right: 25px
+        }
+    }
+
+    .eggnog.alert.has-icon.helper-text-align-center {
+        padding-right: 75px
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.alert.has-icon.helper-text-align-center {
+            padding-right:60px
+        }
+    }
+
+    .eggnog.alert.is-error {
+        background: linear-gradient(95deg,#752525 0%,rgba(112,29,43,.734) 37.85%,rgba(107,22,50,.484) 73.46%,rgba(102,15,56,.24) 108.34%,rgba(98,8,62,0) 142.48%);
+        color: #ffdcc8
+    }
+
+    .eggnog.alert.is-error>.icon svg * {
+        fill: #fa6c63
+    }

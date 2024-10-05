@@ -1,0 +1,54 @@
+    .eggnog.page.home section.hero .click .arrow {
+        position: relative;
+        width: 12px;
+        height: 8px
+    }
+
+    .eggnog.page.home section.hero .click .arrow.is-arrow-left {
+        transform: rotate(90deg)
+    }
+
+    .eggnog.page.home section.hero .click .arrow.is-arrow-right {
+        transform: rotate(-90deg)
+    }
+
+    .eggnog.page.home section.hero .click .arrow svg {
+        display: block;
+        width: 100%;
+        height: 100%
+    }
+
+    .eggnog.page.home section.hero .click .arrow svg * {
+        fill: #202020;
+        opacity: 1
+    }
+
+    .eggnog.page.home section.hero .click .hand {
+        width: 30px;
+        height: 30px;
+        margin: 0 17px;
+        overflow: hidden;
+        animation: hero-hand 2s infinite
+    }
+
+    .eggnog.page.home section.hero .click .hand .hand-illustration {
+        width: 30px;
+        height: 30px;
+        background-image: url(/assets/images/hands.png);
+        background-size: 30px 60px;
+        background-position: top left;
+        animation: hero-hand-illustration 2s infinite
+    }
+
+    @-moz-keyframes hero-hand-illustration {
+        4.9% {
+            background-position: top left
+        }
+
+        5% {
+            background-position: bottom left
+        }
+
+        45% {
+            background-position: bottom left
+        }

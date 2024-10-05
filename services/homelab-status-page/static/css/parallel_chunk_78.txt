@@ -1,0 +1,53 @@
+    @media (max-width: 400px) {
+        .eggnog.important-message {
+            font-size:16px
+        }
+    }
+
+    .eggnog.important-message.is-error {
+        --highlight-color: #ff5b86
+    }
+
+    .eggnog.important-message>.icon {
+        display: block;
+        margin-bottom: 5px
+    }
+
+    .eggnog.important-message>.icon svg *[fill] {
+        fill: var(--highlight-color)
+    }
+
+    .eggnog.important-message>.icon svg *[stroke] {
+        stroke: var(--highlight-color)
+    }
+
+    .eggnog.important-message .message-title {
+        margin-bottom: .5em;
+        font-size: 48px;
+        font-weight: 700;
+        color: var(--highlight-color)
+    }
+
+    @media (max-width: 1300px) {
+        .eggnog.important-message .message-title {
+            font-size:44px
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.important-message .message-title {
+            font-size:40px
+        }
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.important-message .message-title {
+            font-size:36px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.important-message .message-title {
+            font-size:32px
+        }
+    }

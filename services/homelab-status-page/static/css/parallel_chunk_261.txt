@@ -1,0 +1,63 @@
+```css
+    .eggnog.page.lessons .tabs .tabs-mover .scroll-mover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% + 40px);
+        height: 100%;
+        padding: 25px 55px 25px 25px;
+        overflow-y: scroll
+    }
+
+    .eggnog.page.lessons .tabs .tabs-mover .shadow-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 220px;
+        background: url(../images/bottom-shadow-gradient.png);
+        opacity: 1;
+        transition: opacity .3s;
+        pointer-events: none
+    }
+
+    .eggnog.page.lessons .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .eggnog.page.lessons .main .content {
+        margin-bottom: 2em
+    }
+
+    .eggnog.page.lessons .main .content.width-1792 {
+        max-width: 1792px
+    }
+
+    @media (max-width: 2150px) {
+        .eggnog.page.lessons .main .content.width-1792 {
+            max-width:1344px
+        }
+    }
+
+    .eggnog.page.lessons .main .content.width-1536 {
+        max-width: 1536px
+    }
+
+    @media (max-width: 1600px) {
+        .eggnog.page.lessons .main .content.width-1536 {
+            max-width:1024px
+        }
+    }
+
+    .eggnog.page.lessons .main .content .text:not(.links) {
+        margin-top: 4em;
+        margin-bottom: 4em
+    }
+
+    .eggnog.page.lessons .main .content .text:not(.links)>h2,.eggnog.page.lessons .main .content .text: not(.links)>h3,.eggnog.page.lessons .main .content .text:not(.links)>h4,.eggnog.page.lessons .main .content .text:not(.links)>h5,.eggnog.page.lessons .main .content .text:not(.links>.h2,.eggnog.page.lessons .main .content .text:not(.links)>.h3,.eggnog.page.lessons .main .content .text:not(.links)>.h4,.eggnog.page.lessons .main .content .text:not(.links)>.h5,.eggnog.page.lessons .main .content .text:not(.links)>ul,.eggnog.page.lessons .main .content .text:not(.links)>ol,.eggnog.page.lessons .main .content .text:not(.links)>p:not(.is-image),.eggnog.page.lessons .main .content .text:not(.links)>pre {
+        margin-left:280px;
+        margin-right: 280px
+    }
+```

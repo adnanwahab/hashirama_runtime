@@ -1,0 +1,61 @@
+```css
+@media (max-width: 400px) {
+    .eggnog.page.home section.presentation {
+        padding-left:10px;
+        padding-right: 10px
+    }
+}
+
+.eggnog.page.home section.presentation .section-title {
+    margin-bottom: 1em
+}
+
+.eggnog.page.home section.presentation .section-title strong {
+    color: #705df2
+}
+
+.eggnog.page.home section.presentation .description {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh
+}
+
+@media (max-width: 1080px) {
+    .eggnog.page.home section.presentation .description {
+        max-width:600px
+    }
+}
+
+.eggnog.page.home section.presentation .numbers {
+    display: flex;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center
+}
+
+.eggnog.page.home section.presentation .numbers .number {
+    position: relative;
+    width: 25%
+}
+
+.eggnog.page.home section.presentation .numbers .number: first-child .radial-glow {
+    left:0
+}
+
+.eggnog.page.home section.presentation .numbers .number: last-child .radial-glow {
+    left:100%
+}
+
+.eggnog.page.home section.presentation .numbers .number .radial-glow {
+    top: 100%;
+    left: 50%;
+    width: 25vmax;
+    height: 25vmax;
+    background: radial-gradient(closest-side,#705df2,transparent);
+    opacity: .12;
+    pointer-events: none
+}
+```

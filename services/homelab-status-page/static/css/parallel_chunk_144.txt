@@ -1,0 +1,55 @@
+    @media (max-width: 800px) {
+        .eggnog.page.challenges .results .topic .name {
+            font-size:20px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.challenges .results .topic .name {
+            font-size:18px
+        }
+    }
+
+    @media (max-width: 400px) {
+        .eggnog.page.challenges .results .topic .name {
+            font-size:18px
+        }
+    }
+
+    .eggnog.page.challenges .results .winner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-bottom: 50px
+    }
+
+    @media (max-width: 800px) {
+        .eggnog.page.challenges .results .winner {
+            margin-bottom:40px
+        }
+    }
+
+    @media (max-width: 600px) {
+        .eggnog.page.challenges .results .winner {
+            margin-bottom:25px
+        }
+    }
+
+    .eggnog.page.challenges .results .winner.is-rank-2,.eggnog.page.challenges .results .winner.is-rank-3 {
+        width: calc(50% - 12.5px)
+    }
+
+    @media (max-width: 1080px) {
+        .eggnog.page.challenges .results .winner.is-rank-2,.eggnog.page.challenges .results .winner.is-rank-3 {
+            width:100%
+        }
+    }
+
+    .eggnog.page.challenges .results .winner.is-rank-2 .rank,.eggnog.page.challenges .results .winner.is-rank-3 .rank {
+        padding: 20px 0
+    }
+
+    .eggnog.page.challenges .results .winner.is-rank-2 .rank .position,.eggnog.page.challenges .results .winner.is-rank-3 .rank .position {
+        font-size: 36px
+    }

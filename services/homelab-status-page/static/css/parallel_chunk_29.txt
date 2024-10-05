@@ -1,0 +1,68 @@
+```css
+@media (max-width: 800px) {
+    .eggnog.black-friday .column.is-game .label {
+        font-size:14px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.black-friday .column.is-game .label {
+        font-size:12px
+    }
+}
+
+.eggnog.black-friday .column.is-game:hover .label {
+    text-shadow: 0 0 10px rgba(255,255,255,.667)
+}
+
+.eggnog.black-friday .column .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0 -7.5%;
+    padding: 0 15%;
+    clip-path: polygon(13.04% 0%,100% 0%,86.96% 100%,0% 100%)
+}
+
+.eggnog.button {
+    display: inline-flex;
+    position: relative;
+    height: 47px;
+    margin-right: 20px;
+    border-radius: 8px;
+    background: #272727;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    text-decoration: none!important;
+    overflow: hidden;
+    vertical-align: middle;
+    -webkit-mask-image: -webkit-radial-gradient(#fff,#000)
+}
+
+@media (max-width: 800px) {
+    .eggnog.button {
+        margin-right:15px
+    }
+}
+
+@media (max-width: 600px) {
+    .eggnog.button {
+        margin-right:10px
+    }
+}
+
+.eggnog.button:last-child {
+    margin-right: 0
+}
+
+.eggnog.button.is-disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.eggnog.button.has-icon-left .label {
+    margin-left: 0
+}
+```

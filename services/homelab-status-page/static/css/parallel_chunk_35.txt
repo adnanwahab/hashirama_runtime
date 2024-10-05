@@ -1,0 +1,45 @@
+.eggnog.button.is-pink {
+        background: #ec4a7a
+    }
+
+.eggnog.button.is-pink .icon,.eggnog.button.is-pink .label {
+        opacity: 1
+    }
+
+.eggnog.button.is-purple {
+        background: #705df2
+    }
+
+.eggnog.button.is-purple .icon,.eggnog.button.is-purple .label {
+        opacity: 1
+    }
+
+.eggnog.button.is-gray {
+        background: #393939
+    }
+
+.eggnog.button.is-gray .icon,.eggnog.button.is-gray .label {
+        opacity: 1
+    }
+
+.eggnog.button.is-small {
+        border-radius: 4px;
+        height: 24px
+    }
+
+.eggnog.button.is-small .label {
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: .6rem
+    }
+
+.eggnog.button.is-large {
+        height: 60px;
+        white-space: nowrap
+    }
+
+@media (max-width: 800px) {
+        .button.is-large {
+            height:55px
+        }
+    }

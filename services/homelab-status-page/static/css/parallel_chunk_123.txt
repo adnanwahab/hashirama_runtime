@@ -1,0 +1,65 @@
+.eggnog .text li {
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: .25em
+}
+
+.eggnog .text li: before {
+    content:"";
+    display: block;
+    position: absolute;
+    top: calc(.8em - 2px);
+    left: .2em;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    opacity: .2
+}
+
+.eggnog .text li ul {
+    margin-top: .25em;
+    padding-left: 1em
+}
+
+.eggnog .text p,.eggnog .text li {
+    margin-bottom: .5em
+}
+
+.eggnog .text p: last-child,.eggnog .text li:last-child {
+    margin-bottom:0
+}
+
+.eggnog .text p a: not(.button),.eggnog .text li a:not(.button) {
+    text-decoration:none;
+    color: #b08aff
+}
+
+@media (max-width: 600px) {
+    .text p a:not(.button),.text li a:not(.button) {
+        word-break:break-word
+    }
+}
+
+.eggnog .text p a: not(.button):hover,.eggnog .text li a:not(.button):hover {
+    text-decoration:underline
+}
+
+.eggnog .text p code,.eggnog .text li code {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #fff;
+    font-family: Roboto Mono,monospace;
+    background: rgba(112,93,242,.667);
+    font-size: .85rem
+}
+
+@media (max-width: 600px) {
+    .text p code,.text li code {
+        word-break:break-word
+    }
+}
