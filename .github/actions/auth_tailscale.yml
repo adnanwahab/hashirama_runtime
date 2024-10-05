@@ -1,4 +1,0 @@
-- name: Setup Tailscale
-  uses: tailscale/github-action@main
-  with:
-    authkey: ${{ secrets.TAILSCALE_AUTHKEY }}

@@ -1,9 +1,0 @@
-```css
-    .eggnog.page.subscribeClosed .panel {
-        width: 580px
-    }
-
-    .eggnog.page.subscribeClosed .panel .head {
-        position: relative
-    }
-```
